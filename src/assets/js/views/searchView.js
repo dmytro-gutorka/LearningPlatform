@@ -4,6 +4,16 @@ const coursesContainer = document.querySelector('.courses__cards');
 const numbersOfCoursesElement = document.querySelector('.courses__result');
 
 
+export function test(handler) {
+    window.addEventListener('DOMContentLoaded', async () => {
+        handler()
+    });
+
+}
+
+
+
+
 export function addSearchHandler(handler) {
     searchForm.addEventListener('submit', (e) => {
         e.preventDefault()

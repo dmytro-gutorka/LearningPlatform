@@ -7,15 +7,19 @@ import * as sortView from './views/sortView.js';
 
 
 async function controlSearch() {
+
     model.state.query = searchView.getQuery()
     if (model.state.query.length <= 0) return;
 
-    await model.loadCourses()
+    // await model.loadCourses()
+    //
+    // model.loadSearchResult(model.state.query )
+    //
+    // searchView.renderNumberOfResults(model.state.query , model.state.searchedCourses.length)
+    // searchView.renderCourses(model.state.searchedCourses)
 
-    model.loadSearchResult(model.state.query )
-
-    searchView.renderNumberOfResults(model.state.query , model.state.searchedCourses.length)
-    searchView.renderCourses(model.state.searchedCourses)
+    localStorage.setItem('searchQuery', model.state.query);
+    window.location.href = 'src/courses.html';
 }
 
 
@@ -26,13 +30,27 @@ async function controlSort(selectedValue) {
 
     searchView.renderNumberOfResults(model.state.query, model.state.searchedCourses.length)
     searchView.renderCourses(model.state.searchedCourses)
+}
 
+
+async function test1 () {
+    const query = localStorage.getItem('searchQuery');
+    if (!query) return;
+
+    model.state.query = query;
+    await model.loadCourses();
+
+    model.loadSearchResult(query);
+
+    searchView.renderNumberOfResults(query, model.state.searchedCourses.length);
+    searchView.renderCourses(model.state.searchedCourses);
 }
 
 
 function init() {
     searchView.addSearchHandler(controlSearch);
     sortView.addSortHandler(controlSort);
+    searchView.test(test1)
 }
 
 
