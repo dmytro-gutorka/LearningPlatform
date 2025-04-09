@@ -1,0 +1,38 @@
+@use '../base/mixins' as *;
+
+
+.cross-button {
+  @include reset-button;
+  @include square(var(--button-height));
+
+  position: relative;
+  border-radius: var(--border-radius-small);
+
+
+  &::after,
+  &::before{
+    content: '';
+    position: absolute;
+    //top: 0;
+    //left: 0;
+    //width: 50%;
+    top: 20px;
+    left: 8px;
+    width: 60%;
+    height: 2px;
+    background-color: var(--color-light);
+    border-radius: var(--border-radius-small);
+  }
+
+  &::after{
+    rotate: 45deg;
+  }
+
+  &::before {
+    rotate: -45deg;
+  }
+
+  @include hover {
+    background-color: var(--color-light-grey);
+  }
+}

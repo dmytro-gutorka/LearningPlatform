@@ -1,0 +1,1650 @@
+[
+  {
+    "title": "Responsive Web Design Deep Dive",
+    "instructor": "Alice Johnson",
+    "difficulty": "Intermediate",
+    "rating": 4.3,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "Blockchain",
+      "DevOps",
+      "HTML",
+      "Kubernetes",
+      "MongoDB",
+      "Vue.js",
+      "Agile",
+      "CSS"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-9.png"
+  },
+  {
+    "title": "Agile in Practice 2025",
+    "instructor": "Ian Malcolm",
+    "difficulty": "Intermediate",
+    "rating": 4.67,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "Blockchain",
+      "AWS",
+      "Node.js",
+      "Docker",
+      "JavaScript",
+      "SQL",
+      "HTML",
+      "Vue.js"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-10.png"
+  },
+  {
+    "title": "TypeScript with React",
+    "instructor": "George Lucas",
+    "difficulty": "Advanced",
+    "rating": 4.92,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "Flutter",
+      "Blockchain",
+      "SQL",
+      "Django",
+      "JavaScript",
+      "React"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-3.png"
+  },
+  {
+    "title": "Node.js API Mastery",
+    "instructor": "Alice Johnson",
+    "difficulty": "Intermediate",
+    "rating": 3.55,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "Flutter",
+      "React",
+      "Agile",
+      "Kubernetes",
+      "JavaScript",
+      "MongoDB",
+      "HTML",
+      "UI/UX"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-14.png"
+  },
+  {
+    "title": "Manual Testing Basics",
+    "instructor": "Ethan Hunt",
+    "difficulty": "Intermediate",
+    "rating": 3.94,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "HTML",
+      "C#",
+      "Node.js",
+      "MongoDB",
+      "Kubernetes",
+      "JavaScript",
+      "Blockchain"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-13.png"
+  },
+  {
+    "title": "Frontend with HTML & CSS",
+    "instructor": "Alice Johnson",
+    "difficulty": "Intermediate",
+    "rating": 4.9,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "Kubernetes",
+      "SQL",
+      "AWS",
+      "Blockchain",
+      "Agile"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-13.png"
+  },
+  {
+    "title": "Augmented Reality with Unity",
+    "instructor": "Jane Foster",
+    "difficulty": "Advanced",
+    "rating": 4.78,
+    "description": "Learn the core skills with real-world examples and interactive lessons.",
+    "topics": [
+      "Blockchain",
+      "Node.js",
+      "Agile",
+      "AWS",
+      "Flutter",
+      "DevOps",
+      "React",
+      "Python"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-4.png"
+  },
+  {
+    "title": "Python for Data Analysis Deep Dive",
+    "instructor": "Hannah Brown",
+    "difficulty": "Intermediate",
+    "rating": 4.15,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "Kubernetes",
+      "Vue.js",
+      "JavaScript",
+      "Agile",
+      "AWS",
+      "MongoDB",
+      "Blockchain"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-10.png"
+  },
+  {
+    "title": "Blockchain Fundamentals Crash Course",
+    "instructor": "Ethan Hunt",
+    "difficulty": "Advanced",
+    "rating": 3.98,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "Django",
+      "UI/UX",
+      "Kubernetes",
+      "Blockchain",
+      "Node.js"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-2.png"
+  },
+  {
+    "title": "Responsive Web Design",
+    "instructor": "Fiona Gallagher",
+    "difficulty": "Intermediate",
+    "rating": 3.51,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "Python",
+      "TypeScript",
+      "MongoDB",
+      "Node.js",
+      "CSS",
+      "Docker",
+      "UI/UX",
+      "Agile"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-14.png"
+  },
+  {
+    "title": "Vue.js for Beginners 2025",
+    "instructor": "Jane Foster",
+    "difficulty": "Beginner",
+    "rating": 4.27,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "Flutter",
+      "Vue.js",
+      "SQL",
+      "Kubernetes",
+      "Python",
+      "CSS",
+      "Docker"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-11.png"
+  },
+  {
+    "title": "Ethereum Dapps",
+    "instructor": "Ethan Hunt",
+    "difficulty": "Advanced",
+    "rating": 4.38,
+    "description": "Learn the core skills with real-world examples and interactive lessons.",
+    "topics": [
+      "Node.js",
+      "CSS",
+      "SQL",
+      "C#",
+      "Blockchain"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-10.png"
+  },
+  {
+    "title": "PostgreSQL Advanced",
+    "instructor": "Fiona Gallagher",
+    "difficulty": "Advanced",
+    "rating": 4.69,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "Django",
+      "Node.js",
+      "React",
+      "Python",
+      "DevOps",
+      "SQL"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-10.png"
+  },
+  {
+    "title": "Modern CSS Grid Masterclass",
+    "instructor": "George Lucas",
+    "difficulty": "Advanced",
+    "rating": 4.37,
+    "description": "Learn the core skills with real-world examples and interactive lessons.",
+    "topics": [
+      "C#",
+      "Flutter",
+      "MongoDB",
+      "TypeScript",
+      "Blockchain",
+      "React"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-6.png"
+  },
+  {
+    "title": "PostgreSQL Advanced Deep Dive",
+    "instructor": "Ethan Hunt",
+    "difficulty": "Advanced",
+    "rating": 3.81,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "Django",
+      "Python",
+      "Blockchain",
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "UI/UX",
+      "Agile"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-13.png"
+  },
+  {
+    "title": "Responsive Web Design",
+    "instructor": "Hannah Brown",
+    "difficulty": "Beginner",
+    "rating": 4.5,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "Python",
+      "Docker",
+      "SQL",
+      "C#",
+      "AWS"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-3.png"
+  },
+  {
+    "title": "Advanced TypeScript Essentials",
+    "instructor": "Ethan Hunt",
+    "difficulty": "Advanced",
+    "rating": 4.31,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "Flutter",
+      "JavaScript",
+      "Vue.js",
+      "Docker",
+      "DevOps",
+      "Node.js",
+      "Django",
+      "Blockchain"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-13.png"
+  },
+  {
+    "title": "Ethereum Dapps",
+    "instructor": "Charlie Lee",
+    "difficulty": "Intermediate",
+    "rating": 3.62,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "UI/UX",
+      "JavaScript",
+      "HTML",
+      "Agile",
+      "Django",
+      "Kubernetes"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-10.png"
+  },
+  {
+    "title": "Python Automation",
+    "instructor": "Ethan Hunt",
+    "difficulty": "Intermediate",
+    "rating": 4.81,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "UI/UX",
+      "Vue.js",
+      "React",
+      "Agile",
+      "DevOps",
+      "CSS"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-5.png"
+  },
+  {
+    "title": "UI/UX Principles 2025",
+    "instructor": "Diana Prince",
+    "difficulty": "Beginner",
+    "rating": 3.82,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "UI/UX",
+      "Flutter",
+      "Python",
+      "SQL",
+      "Vue.js",
+      "DevOps"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-14.png"
+  },
+  {
+    "title": "Agile in Practice",
+    "instructor": "Ethan Hunt",
+    "difficulty": "Advanced",
+    "rating": 4.01,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "Docker",
+      "Blockchain",
+      "CSS",
+      "C#",
+      "MongoDB",
+      "Django",
+      "Flutter",
+      "JavaScript"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-2.png"
+  },
+  {
+    "title": "Python Automation",
+    "instructor": "George Lucas",
+    "difficulty": "Intermediate",
+    "rating": 4.52,
+    "description": "Learn the core skills with real-world examples and interactive lessons.",
+    "topics": [
+      "TypeScript",
+      "Blockchain",
+      "Agile",
+      "MongoDB",
+      "SQL"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-1.png"
+  },
+  {
+    "title": "Big Data with Hadoop",
+    "instructor": "Jane Foster",
+    "difficulty": "Advanced",
+    "rating": 4.99,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "C#",
+      "CSS",
+      "Python",
+      "MongoDB",
+      "Kubernetes"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-15.png"
+  },
+  {
+    "title": "SQL from Scratch",
+    "instructor": "Diana Prince",
+    "difficulty": "Beginner",
+    "rating": 3.96,
+    "description": "Learn the core skills with real-world examples and interactive lessons.",
+    "topics": [
+      "Vue.js",
+      "CSS",
+      "Python",
+      "DevOps",
+      "AWS"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-6.png"
+  },
+  {
+    "title": "Network Security",
+    "instructor": "Jane Foster",
+    "difficulty": "Intermediate",
+    "rating": 3.67,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "HTML",
+      "Vue.js",
+      "CSS",
+      "SQL",
+      "Agile",
+      "Docker",
+      "Blockchain",
+      "Python"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-9.png"
+  },
+  {
+    "title": "Figma from Zero",
+    "instructor": "Fiona Gallagher",
+    "difficulty": "Intermediate",
+    "rating": 4.28,
+    "description": "Learn the core skills with real-world examples and interactive lessons.",
+    "topics": [
+      "Agile",
+      "Vue.js",
+      "Kubernetes",
+      "MongoDB",
+      "TypeScript"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-14.png"
+  },
+  {
+    "title": "Vue.js + Vuex Deep Dive",
+    "instructor": "Jane Foster",
+    "difficulty": "Beginner",
+    "rating": 3.87,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "Python",
+      "Django",
+      "TypeScript",
+      "DevOps",
+      "C#"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-14.png"
+  },
+  {
+    "title": "Frontend with HTML & CSS",
+    "instructor": "Ian Malcolm",
+    "difficulty": "Intermediate",
+    "rating": 3.58,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "Kubernetes",
+      "JavaScript",
+      "React",
+      "Blockchain",
+      "UI/UX"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-14.png"
+  },
+  {
+    "title": "Blockchain Fundamentals",
+    "instructor": "Jane Foster",
+    "difficulty": "Advanced",
+    "rating": 3.83,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "DevOps",
+      "Flutter",
+      "Node.js",
+      "UI/UX",
+      "TypeScript",
+      "MongoDB",
+      "Django",
+      "CSS"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-9.png"
+  },
+  {
+    "title": "Vue.js + Vuex Masterclass",
+    "instructor": "Bob Smith",
+    "difficulty": "Beginner",
+    "rating": 4.2,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "HTML",
+      "MongoDB",
+      "Blockchain",
+      "DevOps",
+      "AWS",
+      "Kubernetes",
+      "C#",
+      "Node.js"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-12.png"
+  },
+  {
+    "title": "Frontend with HTML & CSS Deep Dive",
+    "instructor": "Alice Johnson",
+    "difficulty": "Intermediate",
+    "rating": 4.76,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "Node.js",
+      "HTML",
+      "Vue.js",
+      "Kubernetes",
+      "Agile",
+      "React",
+      "TypeScript"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-7.png"
+  },
+  {
+    "title": "Solidity Smart Contracts",
+    "instructor": "Bob Smith",
+    "difficulty": "Intermediate",
+    "rating": 3.72,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "Python",
+      "MongoDB",
+      "Blockchain",
+      "SQL",
+      "UI/UX"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-14.png"
+  },
+  {
+    "title": "Kubernetes Crash Course Deep Dive",
+    "instructor": "Hannah Brown",
+    "difficulty": "Beginner",
+    "rating": 3.95,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "Flutter",
+      "Blockchain",
+      "Node.js",
+      "Django",
+      "SQL",
+      "HTML"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-4.png"
+  },
+  {
+    "title": "Solidity Smart Contracts Essentials",
+    "instructor": "Ian Malcolm",
+    "difficulty": "Intermediate",
+    "rating": 4.7,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "DevOps",
+      "Node.js",
+      "Agile",
+      "Flutter",
+      "Django"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-13.png"
+  },
+  {
+    "title": "Solidity Smart Contracts Masterclass",
+    "instructor": "George Lucas",
+    "difficulty": "Advanced",
+    "rating": 4.77,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "SQL",
+      "Kubernetes",
+      "Python",
+      "C#",
+      "Vue.js",
+      "HTML",
+      "JavaScript",
+      "UI/UX"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-10.png"
+  },
+  {
+    "title": "GCP Essentials",
+    "instructor": "Alice Johnson",
+    "difficulty": "Beginner",
+    "rating": 4.5,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "CSS",
+      "TypeScript",
+      "C#",
+      "MongoDB",
+      "JavaScript",
+      "HTML",
+      "Blockchain"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-6.png"
+  },
+  {
+    "title": "Docker for Developers Masterclass",
+    "instructor": "Bob Smith",
+    "difficulty": "Intermediate",
+    "rating": 4.57,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "C#",
+      "Django",
+      "React",
+      "SQL",
+      "JavaScript",
+      "DevOps",
+      "MongoDB"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-7.png"
+  },
+  {
+    "title": "Data Engineering Pipeline Masterclass",
+    "instructor": "Alice Johnson",
+    "difficulty": "Beginner",
+    "rating": 4.67,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "DevOps",
+      "React",
+      "Django",
+      "JavaScript",
+      "Vue.js",
+      "UI/UX",
+      "Docker",
+      "Flutter"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-7.png"
+  },
+  {
+    "title": "Frontend with HTML & CSS Essentials",
+    "instructor": "Alice Johnson",
+    "difficulty": "Advanced",
+    "rating": 4.41,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "Django",
+      "JavaScript",
+      "MongoDB",
+      "CSS",
+      "Vue.js",
+      "TypeScript",
+      "Node.js",
+      "DevOps"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-5.png"
+  },
+  {
+    "title": "Blockchain Fundamentals Crash Course",
+    "instructor": "Fiona Gallagher",
+    "difficulty": "Beginner",
+    "rating": 4.1,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "Django",
+      "MongoDB",
+      "C#",
+      "Node.js",
+      "Flutter"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-7.png"
+  },
+  {
+    "title": "Blockchain Fundamentals",
+    "instructor": "Ian Malcolm",
+    "difficulty": "Advanced",
+    "rating": 4.16,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "MongoDB",
+      "CSS",
+      "Kubernetes",
+      "UI/UX",
+      "TypeScript",
+      "Vue.js",
+      "HTML",
+      "React"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-7.png"
+  },
+  {
+    "title": "Manual Testing Basics",
+    "instructor": "Fiona Gallagher",
+    "difficulty": "Intermediate",
+    "rating": 3.79,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "CSS",
+      "Docker",
+      "TypeScript",
+      "C#",
+      "UI/UX",
+      "JavaScript",
+      "HTML",
+      "Vue.js"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-5.png"
+  },
+  {
+    "title": "Flutter for Designers Essentials",
+    "instructor": "Alice Johnson",
+    "difficulty": "Advanced",
+    "rating": 4.27,
+    "description": "Learn the core skills with real-world examples and interactive lessons.",
+    "topics": [
+      "Agile",
+      "Blockchain",
+      "UI/UX",
+      "SQL",
+      "Vue.js",
+      "DevOps"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-13.png"
+  },
+  {
+    "title": "MySQL Performance Tuning",
+    "instructor": "Jane Foster",
+    "difficulty": "Advanced",
+    "rating": 4.47,
+    "description": "Learn the core skills with real-world examples and interactive lessons.",
+    "topics": [
+      "SQL",
+      "UI/UX",
+      "Vue.js",
+      "Django",
+      "JavaScript",
+      "Python",
+      "TypeScript"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-10.png"
+  },
+  {
+    "title": "Nuxt.js Essentials Masterclass",
+    "instructor": "Charlie Lee",
+    "difficulty": "Intermediate",
+    "rating": 3.93,
+    "description": "Learn the core skills with real-world examples and interactive lessons.",
+    "topics": [
+      "C#",
+      "UI/UX",
+      "Agile",
+      "Django",
+      "Python"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-6.png"
+  },
+  {
+    "title": "Project Management Basics",
+    "instructor": "Charlie Lee",
+    "difficulty": "Advanced",
+    "rating": 3.86,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "MongoDB",
+      "Agile",
+      "Flutter",
+      "Vue.js",
+      "Node.js"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-14.png"
+  },
+  {
+    "title": "Network Security Deep Dive",
+    "instructor": "Hannah Brown",
+    "difficulty": "Advanced",
+    "rating": 4.22,
+    "description": "Learn the core skills with real-world examples and interactive lessons.",
+    "topics": [
+      "MongoDB",
+      "JavaScript",
+      "Flutter",
+      "Node.js",
+      "DevOps",
+      "HTML",
+      "AWS"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-6.png"
+  },
+  {
+    "title": "JavaScript Fundamentals Masterclass",
+    "instructor": "Fiona Gallagher",
+    "difficulty": "Advanced",
+    "rating": 4.64,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "Vue.js",
+      "Python",
+      "JavaScript",
+      "Blockchain",
+      "HTML",
+      "Node.js",
+      "AWS",
+      "UI/UX"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-9.png"
+  },
+  {
+    "title": "Big Data with Hadoop",
+    "instructor": "Charlie Lee",
+    "difficulty": "Beginner",
+    "rating": 3.68,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "React",
+      "UI/UX",
+      "DevOps",
+      "MongoDB",
+      "HTML",
+      "Docker",
+      "Node.js",
+      "Blockchain"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-12.png"
+  },
+  {
+    "title": "Responsive Web Design Essentials",
+    "instructor": "George Lucas",
+    "difficulty": "Beginner",
+    "rating": 4.55,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "Docker",
+      "JavaScript",
+      "Django",
+      "Kubernetes",
+      "HTML",
+      "UI/UX",
+      "CSS"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-7.png"
+  },
+  {
+    "title": "Ethereum Dapps",
+    "instructor": "Fiona Gallagher",
+    "difficulty": "Intermediate",
+    "rating": 4.61,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "Vue.js",
+      "CSS",
+      "AWS",
+      "Node.js",
+      "SQL",
+      "Docker",
+      "HTML",
+      "C#"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-7.png"
+  },
+  {
+    "title": "JavaScript for PRO",
+    "instructor": "Diana Prince",
+    "difficulty": "Beginner",
+    "rating": 3.69,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "DevOps",
+      "Flutter",
+      "Django",
+      "Kubernetes",
+      "Docker"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-6.png"
+  },
+  {
+    "title": "Blockchain Fundamentals Masterclass",
+    "instructor": "Charlie Lee",
+    "difficulty": "Advanced",
+    "rating": 4.64,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "JavaScript",
+      "DevOps",
+      "Django",
+      "Python",
+      "HTML"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-2.png"
+  },
+  {
+    "title": "JavaScript with TypeScript",
+    "instructor": "Bob Smith",
+    "difficulty": "Intermediate",
+    "rating": 3.77,
+    "description": "Learn the core skills with real-world examples and interactive lessons.",
+    "topics": [
+      "DevOps",
+      "UI/UX",
+      "Node.js",
+      "Kubernetes",
+      "Flutter"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-9.png"
+  },
+  {
+    "title": "JavaScript from scratch",
+    "instructor": "Ian Malcolm",
+    "difficulty": "Beginner",
+    "rating": 4.66,
+    "description": "Learn the core skills with real-world examples and interactive lessons.",
+    "topics": [
+      "JavaScript",
+      "Blockchain",
+      "SQL",
+      "DevOps",
+      "AWS",
+      "UI/UX",
+      "Agile",
+      "Python"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-9.png"
+  },
+  {
+    "title": "SQL from Scratch Essentials",
+    "instructor": "Hannah Brown",
+    "difficulty": "Advanced",
+    "rating": 4.29,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "UI/UX",
+      "Kubernetes",
+      "Agile",
+      "JavaScript",
+      "SQL",
+      "CSS",
+      "Python"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-5.png"
+  },
+  {
+    "title": "Node.js API Mastery",
+    "instructor": "Jane Foster",
+    "difficulty": "Beginner",
+    "rating": 4.49,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "Flutter",
+      "Django",
+      "DevOps",
+      "JavaScript",
+      "Vue.js",
+      "C#"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-15.png"
+  },
+  {
+    "title": "Unity Game Dev Deep Dive",
+    "instructor": "George Lucas",
+    "difficulty": "Advanced",
+    "rating": 4.12,
+    "description": "Learn the core skills with real-world examples and interactive lessons.",
+    "topics": [
+      "React",
+      "Blockchain",
+      "Agile",
+      "Flutter",
+      "C#"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-14.png"
+  },
+  {
+    "title": "JavaScript for Beginners Deep Dive",
+    "instructor": "Fiona Gallagher",
+    "difficulty": "Advanced",
+    "rating": 3.53,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "Agile",
+      "Python",
+      "CSS",
+      "Flutter",
+      "Django",
+      "HTML",
+      "C#"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-8.png"
+  },
+  {
+    "title": "TypeScript with React Crash Course",
+    "instructor": "George Lucas",
+    "difficulty": "Beginner",
+    "rating": 4.54,
+    "description": "Learn the core skills with real-world examples and interactive lessons.",
+    "topics": [
+      "Kubernetes",
+      "AWS",
+      "HTML",
+      "Flutter",
+      "MongoDB",
+      "Vue.js"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-7.png"
+  },
+  {
+    "title": "Cloud Basics with AWS Essentials",
+    "instructor": "Charlie Lee",
+    "difficulty": "Beginner",
+    "rating": 3.71,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "Python",
+      "JavaScript",
+      "CSS",
+      "Django",
+      "Kubernetes",
+      "MongoDB"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-7.png"
+  },
+  {
+    "title": "Network Security 2025",
+    "instructor": "Hannah Brown",
+    "difficulty": "Beginner",
+    "rating": 3.6,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "Node.js",
+      "AWS",
+      "Vue.js",
+      "Agile",
+      "DevOps",
+      "Django"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-15.png"
+  },
+  {
+    "title": "Node.js Essentials Masterclass",
+    "instructor": "George Lucas",
+    "difficulty": "Advanced",
+    "rating": 3.87,
+    "description": "Learn the core skills with real-world examples and interactive lessons.",
+    "topics": [
+      "Vue.js",
+      "DevOps",
+      "C#",
+      "Django",
+      "SQL",
+      "AWS"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-12.png"
+  },
+  {
+    "title": "PostgreSQL Advanced 2025",
+    "instructor": "Alice Johnson",
+    "difficulty": "Advanced",
+    "rating": 4.37,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "Kubernetes",
+      "DevOps",
+      "MongoDB",
+      "Flutter",
+      "HTML",
+      "Node.js",
+      "C#",
+      "Agile"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-10.png"
+  },
+  {
+    "title": "Design Systems with Figma",
+    "instructor": "Hannah Brown",
+    "difficulty": "Beginner",
+    "rating": 4.98,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "Vue.js",
+      "C#",
+      "TypeScript",
+      "SQL",
+      "CSS",
+      "React",
+      "Python",
+      "Node.js"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-1.png"
+  },
+  {
+    "title": "Cybersecurity Basics Essentials",
+    "instructor": "Charlie Lee",
+    "difficulty": "Intermediate",
+    "rating": 4.29,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "HTML",
+      "Docker",
+      "React",
+      "Node.js",
+      "UI/UX",
+      "AWS",
+      "Vue.js"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-11.png"
+  },
+  {
+    "title": "Manual Testing Basics",
+    "instructor": "Fiona Gallagher",
+    "difficulty": "Intermediate",
+    "rating": 3.84,
+    "description": "Learn the core skills with real-world examples and interactive lessons.",
+    "topics": [
+      "Django",
+      "C#",
+      "UI/UX",
+      "SQL",
+      "Python",
+      "React"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-12.png"
+  },
+  {
+    "title": "JavaScript Crash Course",
+    "instructor": "Diana Prince",
+    "difficulty": "Intermediate",
+    "rating": 3.7,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "Vue.js",
+      "MongoDB",
+      "Docker",
+      "Python",
+      "JavaScript",
+      "C#",
+      "Blockchain",
+      "Kubernetes"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-8.png"
+  },
+  {
+    "title": "Cloud Basics with AWS",
+    "instructor": "Ethan Hunt",
+    "difficulty": "Advanced",
+    "rating": 4.97,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "Docker",
+      "Blockchain",
+      "CSS",
+      "Node.js",
+      "Python",
+      "Agile",
+      "C#",
+      "Vue.js"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-15.png"
+  },
+  {
+    "title": "JavaScript Fundamentals",
+    "instructor": "Charlie Lee",
+    "difficulty": "Advanced",
+    "rating": 4.07,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "Agile",
+      "Kubernetes",
+      "SQL",
+      "Python",
+      "TypeScript",
+      "CSS",
+      "React",
+      "UI/UX"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-12.png"
+  },
+  {
+    "title": "Advanced JavaScript Essentials",
+    "instructor": "Alice Johnson",
+    "difficulty": "Beginner",
+    "rating": 4.02,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "CSS",
+      "Kubernetes",
+      "React",
+      "C#",
+      "Docker",
+      "SQL"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-8.png"
+  },
+  {
+    "title": "JavaScript Essentials",
+    "instructor": "Bob Smith",
+    "difficulty": "Intermediate",
+    "rating": 3.9,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "Node.js",
+      "Django",
+      "Kubernetes",
+      "Flutter",
+      "DevOps",
+      "React",
+      "TypeScript",
+      "CSS"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-8.png"
+  },
+  {
+    "title": "Flutter for Designers",
+    "instructor": "Jane Foster",
+    "difficulty": "Advanced",
+    "rating": 4.42,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "Kubernetes",
+      "Blockchain",
+      "CSS",
+      "UI/UX",
+      "React",
+      "HTML"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-6.png"
+  },
+  {
+    "title": "Python Automation Deep Dive",
+    "instructor": "Diana Prince",
+    "difficulty": "Beginner",
+    "rating": 3.92,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "JavaScript",
+      "Vue.js",
+      "Kubernetes",
+      "TypeScript",
+      "Blockchain",
+      "MongoDB",
+      "CSS"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-14.png"
+  },
+  {
+    "title": "JavaScript Language Basics",
+    "instructor": "George Lucas",
+    "difficulty": "Intermediate",
+    "rating": 4.77,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "Node.js",
+      "React",
+      "DevOps",
+      "Docker",
+      "Django"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-2.png"
+  },
+  {
+    "title": "QA Automation with Selenium Crash Course",
+    "instructor": "Jane Foster",
+    "difficulty": "Beginner",
+    "rating": 4.94,
+    "description": "Learn the core skills with real-world examples and interactive lessons.",
+    "topics": [
+      "React",
+      "Vue.js",
+      "SQL",
+      "C#",
+      "Blockchain",
+      "TypeScript"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-11.png"
+  },
+  {
+    "title": "Express with MongoDB",
+    "instructor": "George Lucas",
+    "difficulty": "Beginner",
+    "rating": 4.74,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "Node.js",
+      "Django",
+      "AWS",
+      "Flutter",
+      "Kubernetes",
+      "JavaScript"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-4.png"
+  },
+  {
+    "title": "MySQL Performance Tuning",
+    "instructor": "George Lucas",
+    "difficulty": "Beginner",
+    "rating": 4.67,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "Python",
+      "Django",
+      "C#",
+      "JavaScript",
+      "TypeScript",
+      "Docker"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-12.png"
+  },
+  {
+    "title": "Ethical Hacking Fundamentals Deep Dive",
+    "instructor": "Hannah Brown",
+    "difficulty": "Intermediate",
+    "rating": 4.97,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "HTML",
+      "Node.js",
+      "Agile",
+      "Kubernetes",
+      "TypeScript"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-12.png"
+  },
+  {
+    "title": "Python for Data Analysis 2025",
+    "instructor": "Charlie Lee",
+    "difficulty": "Beginner",
+    "rating": 4.43,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "Docker",
+      "React",
+      "Agile",
+      "Flutter",
+      "UI/UX",
+      "TypeScript"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-3.png"
+  },
+  {
+    "title": "Figma from Zero Essentials",
+    "instructor": "Ethan Hunt",
+    "difficulty": "Advanced",
+    "rating": 4.96,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "C#",
+      "Flutter",
+      "Agile",
+      "Django",
+      "AWS"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-8.png"
+  },
+  {
+    "title": "Advanced TypeScript",
+    "instructor": "Charlie Lee",
+    "difficulty": "Intermediate",
+    "rating": 4.04,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "Blockchain",
+      "C#",
+      "Python",
+      "Docker",
+      "HTML"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-15.png"
+  },
+  {
+    "title": "Node.js Essentials 2025",
+    "instructor": "Hannah Brown",
+    "difficulty": "Intermediate",
+    "rating": 3.6,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "SQL",
+      "Agile",
+      "TypeScript",
+      "Python",
+      "Blockchain"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-4.png"
+  },
+  {
+    "title": "Docker for Developers",
+    "instructor": "Ethan Hunt",
+    "difficulty": "Beginner",
+    "rating": 4.93,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "Docker",
+      "SQL",
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "UI/UX"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-3.png"
+  },
+  {
+    "title": "Flutter for Designers",
+    "instructor": "Alice Johnson",
+    "difficulty": "Intermediate",
+    "rating": 3.88,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "CSS",
+      "Django",
+      "Flutter",
+      "HTML",
+      "C#",
+      "SQL"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-12.png"
+  },
+  {
+    "title": "Modern CSS Grid",
+    "instructor": "Ian Malcolm",
+    "difficulty": "Intermediate",
+    "rating": 4.61,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "Blockchain",
+      "JavaScript",
+      "HTML",
+      "MongoDB",
+      "AWS"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-4.png"
+  },
+  {
+    "title": "Flutter for Designers Masterclass",
+    "instructor": "Jane Foster",
+    "difficulty": "Advanced",
+    "rating": 4.79,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "React",
+      "Blockchain",
+      "Node.js",
+      "HTML",
+      "UI/UX",
+      "AWS",
+      "Vue.js"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-15.png"
+  },
+  {
+    "title": "Modern CSS Grid",
+    "instructor": "Hannah Brown",
+    "difficulty": "Advanced",
+    "rating": 4.79,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "TypeScript",
+      "Vue.js",
+      "SQL",
+      "UI/UX",
+      "Agile",
+      "MongoDB",
+      "Docker",
+      "Django"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-9.png"
+  },
+  {
+    "title": "Augmented Reality with Unity Masterclass",
+    "instructor": "Bob Smith",
+    "difficulty": "Beginner",
+    "rating": 3.7,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "JavaScript",
+      "Django",
+      "AWS",
+      "Agile",
+      "TypeScript"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-7.png"
+  },
+  {
+    "title": "Apache Spark 101 Masterclass",
+    "instructor": "Hannah Brown",
+    "difficulty": "Beginner",
+    "rating": 4.71,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "HTML",
+      "Docker",
+      "AWS",
+      "React",
+      "Python",
+      "Kubernetes",
+      "UI/UX"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-15.png"
+  },
+  {
+    "title": "Data Engineering Pipeline",
+    "instructor": "Diana Prince",
+    "difficulty": "Advanced",
+    "rating": 3.77,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "Python",
+      "Vue.js",
+      "Flutter",
+      "HTML",
+      "UI/UX",
+      "Blockchain",
+      "Docker"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-14.png"
+  },
+  {
+    "title": "JavaScript Advanced",
+    "instructor": "Fiona Gallagher",
+    "difficulty": "Beginner",
+    "rating": 4.32,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "Vue.js",
+      "Blockchain",
+      "Node.js",
+      "Docker",
+      "Agile",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-8.png"
+  },
+  {
+    "title": "JavaScript Testing Crash Course",
+    "instructor": "Diana Prince",
+    "difficulty": "Beginner",
+    "rating": 3.66,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "MongoDB",
+      "UI/UX",
+      "React",
+      "DevOps",
+      "JavaScript",
+      "Docker",
+      "Blockchain"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-7.png"
+  },
+  {
+    "title": "Modern CSS and JavaScript",
+    "instructor": "Jane Foster",
+    "difficulty": "Beginner",
+    "rating": 4.83,
+    "description": "Get started with zero experience and become job-ready fast.",
+    "topics": [
+      "CSS",
+      "Docker",
+      "MongoDB",
+      "UI/UX",
+      "C#",
+      "SQL",
+      "Blockchain"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-8.png"
+  },
+  {
+    "title": "React Hooks in Depth Essentials",
+    "instructor": "Fiona Gallagher",
+    "difficulty": "Beginner",
+    "rating": 3.77,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "TypeScript",
+      "Vue.js",
+      "CSS",
+      "DevOps",
+      "SQL",
+      "UI/UX"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-15.png"
+  },
+  {
+    "title": "Flutter for Designers",
+    "instructor": "Alice Johnson",
+    "difficulty": "Intermediate",
+    "rating": 3.92,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "Kubernetes",
+      "CSS",
+      "UI/UX",
+      "Python",
+      "Docker",
+      "HTML",
+      "Blockchain"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-7.png"
+  },
+  {
+    "title": "Scrum & Agile",
+    "instructor": "Fiona Gallagher",
+    "difficulty": "Intermediate",
+    "rating": 4.98,
+    "description": "Master advanced techniques with practical hands-on projects.",
+    "topics": [
+      "Agile",
+      "Node.js",
+      "JavaScript",
+      "C#",
+      "DevOps"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-13.png"
+  },
+  {
+    "title": "JavaScript Advanced Masterclass",
+    "instructor": "Alice Johnson",
+    "difficulty": "Intermediate",
+    "rating": 4.19,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "Kubernetes",
+      "SQL",
+      "Python",
+      "React",
+      "MongoDB",
+      "JavaScript"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-6.png"
+  },
+  {
+    "title": "Solidity Smart Contracts",
+    "instructor": "Charlie Lee",
+    "difficulty": "Intermediate",
+    "rating": 3.83,
+    "description": "Step-by-step guide to building production-level applications.",
+    "topics": [
+      "Flutter",
+      "UI/UX",
+      "CSS",
+      "Vue.js",
+      "Agile",
+      "Node.js",
+      "MongoDB"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-3.png"
+  },
+  {
+    "title": "Responsive Web Design Crash Course",
+    "instructor": "Hannah Brown",
+    "difficulty": "Beginner",
+    "rating": 4.62,
+    "description": "Explore industry tools and best practices in depth.",
+    "topics": [
+      "Blockchain",
+      "DevOps",
+      "Kubernetes",
+      "Django",
+      "MongoDB",
+      "UI/UX"
+    ],
+    "img": "./assets/images/courseCovers/course-cover-13.png"
+  }
+]

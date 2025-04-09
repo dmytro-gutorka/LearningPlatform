@@ -1,0 +1,28 @@
+{
+  "name": "capstone-project-template",
+  "version": "1.0.0",
+  "description": "Web application \"Online Learning Platform\" using HTML, CSS, and JavaScript",
+  "repository": {
+    "type": "git",
+    "url": "git@autocode.git.epam.com:dgutorka/capstone-project-template.git"
+  },
+  "license": "ISC",
+  "author": "Dmytro Gutorka",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass src/assets/scss/main.scss dist/css/style.css",
+    "watch:sass": "sass --watch src/assets/scss/main.scss dist/css/style.css",
+    "copy:assets": "mkdir -p dist/fonts && cp -r src/assets/fonts/* dist/fonts/ && cp -r src/assets/js dist/js && cp -r src/assets/images dist/images && cp -r src/assets/icons dist/icons",
+    "build": "npm run compile:sass && npm run copy:assets",
+    "start": "npm run build && npm run watch:sass",
+    "lint": "eslint src/assets/js/*.js && stylelint src/assets/scss/**/*.scss"
+  },
+  "devDependencies": {
+    "eslint": "^9.23.0",
+    "sass": "^1.86.2",
+    "stylelint": "^16.17.0",
+    "stylelint-config-standard-scss": "^14.0.0",
+    "stylelint-scss": "^6.11.1"
+  }
+}

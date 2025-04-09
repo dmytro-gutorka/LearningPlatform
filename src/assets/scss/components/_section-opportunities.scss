@@ -1,0 +1,62 @@
+@use '../base/media' as *;
+
+.section {
+
+  &__header {
+    max-width: 768px;
+    text-align: center;
+    margin: auto;
+
+    & h2{
+      margin-bottom: 24px;
+    }
+  }
+
+  &__description {
+    margin-bottom: 80px;
+  }
+}
+
+
+.opportunities {
+  margin-bottom: 80px;
+
+  &__list {
+    display: flex;
+    gap: 48px;
+
+    @include mobile {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  &__item {
+    max-width: 405px;
+
+    @include mobile {
+      max-width: 650px;
+    }
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__icon {
+    margin-bottom: 28px
+  }
+
+  &__header {
+    margin-bottom: 24px
+  }
+
+  &__link-learn-more {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+  }
+}

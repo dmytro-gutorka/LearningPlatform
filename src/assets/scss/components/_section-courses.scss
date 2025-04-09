@@ -1,0 +1,152 @@
+@use '../base/mixins' as *;
+@use '../base/media' as *;
+
+
+.courses {
+  margin-bottom: 50px;
+
+  &__sorting-select {
+    border-radius: var(--border-radius-small);
+    border: 1px solid var(--color-light);
+    background-color: transparent;
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+  }
+
+
+  &__sorting-option {
+
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  &__sorting-srt-by {
+    margin-right: 10px;
+  }
+
+  &__sorting {
+    display: flex;
+    gap: 15px;
+  }
+
+
+  &__sorting-btn {
+    @include reset-button;
+    display: flex;
+  }
+
+
+  &__filters {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+
+    @include desktop {
+      min-width: 200px;
+    }
+
+    @include mobile-small{
+      flex-direction: column;
+    }
+
+
+
+    &-border-bt {
+      width: 80%;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+    }
+
+    &-padding-bl {
+      padding-block: 20px;
+    }
+  }
+
+  &__filter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &-header {
+      margin-bottom: 20px;
+    }
+  }
+
+
+  &__body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+
+    @include mobile-small{
+      flex-direction: column;
+    }
+
+
+  }
+
+  &__cards {
+    display: flex;
+    flex-direction: column;
+
+    &-no-results {
+      min-width: 100%;
+      min-height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-inline: 150px;
+      gap: 10px;
+
+      & p {
+        color: white;
+      }
+    }
+
+
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: row;
+    padding-block: 30px;
+    gap: 25px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.22);
+
+    @include tablet {
+      flex-direction: column;
+
+    }
+
+    &-body {
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    &-title {
+      margin-bottom: 10px;
+    }
+
+
+    &-image {
+      border: 1px solid var(--color-light-grey);
+    }
+  }
+}
+
+
+.full-height {
+  min-height: 100%;
+}
+
+.bold-underline {
+  color: white;
+}

@@ -1,0 +1,121 @@
+@use '../base/mixins' as *;
+@use '../base/media' as *;
+
+
+.header {
+
+  &__background-image{
+      background-image: url('../images/background-hero-section.svg');
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+
+
+  &__logo {
+    @include tablet {
+      width: 130px;
+      height: 90px;
+    }
+  }
+
+
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    @include tablet {
+      gap: 0;
+    }
+  }
+
+  &__search {
+    flex-grow: 1;
+    min-width: 0;
+
+    @include tablet {
+      margin-right: 10px;
+    }
+
+    @media (max-width: 485px) {
+      display: none;
+    }
+
+    &-field {
+      width: 100%;
+      border-radius: var(--border-radius-large);
+      height: 40px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding-inline: 20px;
+
+
+      &::placeholder {
+        color: var(--color-light);
+        opacity: 0.4;
+        background-image: url('../icons/search-icon.svg');
+        background-repeat: no-repeat;
+        background-position: 20px;
+        background-size: 20px 20px;
+        text-align: center;
+      }
+
+      &:focus {
+        transition-duration: var(--transition-duration);
+        outline: none;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        scale: 1.01;
+      }
+    }
+  }
+
+  &__menu {
+
+    color: var(--color-light);
+
+    &-list {
+      display: flex;
+      gap: 32px;
+
+      @include tablet {
+        gap: 10px;
+      }
+    }
+
+    &-item {
+
+      @include tablet {
+        font-size: 15px;
+      }
+    }
+
+
+    &-link {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      height: 48px;
+
+      &::after {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        translate: -50%;
+        width: 0;
+        height: 2px;
+        background-color: currentColor;
+        transition-duration: inherit;
+      }
+    }
+
+    &-list &-item:not(:last-child) &-link {
+      @include hover {
+        &::after{
+          width: 100%;
+        }
+      }
+    }
+  }
+}

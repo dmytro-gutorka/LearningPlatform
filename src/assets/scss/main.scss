@@ -1,0 +1,27 @@
+@use 'base/normalize';
+@use 'base/fonts';
+@use 'base/variables';
+@use 'base/mixins';
+@use 'base/media';
+
+@use 'base/utils';
+@use 'base/globals';
+
+@use 'components/header';
+@use 'components/slider';
+@use 'components/button';
+@use 'components/footer';
+@use 'components/burger-button';
+@use 'components/cross-button';
+@use 'components/mobile-overlay';
+@use 'components/hero';
+@use 'components/sections';
+@use 'components/section-opportunities';
+@use 'components/section-featured-courses';
+@use 'components/section-testimonial';
+@use 'components/section-courses';
+@use 'components/pagination-buttons';
+@use 'components/page-contacts';
+@use 'components/page-gallery';
+@use 'components/sub-menu';
+

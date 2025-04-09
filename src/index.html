@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="../dist/css/style.css">
+<!--    <script type="module" defer src="../dist/js/main.js"></script>-->
+
+
+    <title>Online Learning Platform</title>
+</head>
+<body>
+
+<header class="header header__background-image">
+    <div class="header__inner container">
+        <a href="./index.html" class="header__logo logo">
+            <img class="logo__image"
+                 src="./assets/images/logo.svg"
+                 alt="Online Learning Platform"
+                 width="150"
+                 height="100"
+                 loading="lazy"
+            >
+        </a>
+        <form class="header__search search">
+            <input type="text" class="header__search-field" placeholder="Search for a course...">
+        </form>
+        <nav class="header__menu hidden-mobile">
+            <ul class="header__menu-list">
+                <li class="header__menu-item">
+                    <a href="./courses.html" class="header__menu-link">Courses</a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="./gallery.html" class="header__menu-link">Gallery</a>
+                </li>
+                <li class="header__menu-item">
+                    <a href="./contacts.html" class="header__menu-link">Contacts</a>
+                </li>
+                <li class="header__menu-item has-submenu">
+                    <a href="#" class="header__menu-link">More info
+                        <img src="./assets/icons/arrow-down-icon.svg" alt="" class="arrow-icon">
+                    </a>
+                    <ul class="submenu">
+                        <li><a href="./index.html">About Us</a></li>
+                        <li><a href="./index.html">FAQ</a></li>
+                        <li><a href="./index.html">Terms of Service</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <button class="button__burger-menu burger-button visible-mobile"
+                type="button" onclick="mobileOverlay.showModal()">
+            <span class="visually-hidden">Open navigation menu</span>
+        </button>
+
+    </div>
+    <div class="container">
+        <div class="hero">
+            <h1 class="hero__header">Unlock Your Potential with Online Learning</h1>
+            <p class="hero__description">Explore a diverse range of courses designed to elevate your skills and knowledge. Join our community of learners and start your journey today!</p>
+            <a class="hero__button btn" href="./courses.html">Learn More</a>
+        </div>
+    </div>
+</header>
+
+<main class="content">
+    <section class="section">
+        <div class="container">
+            <header class="section__header">
+                <h2>Discover How Our Platform Empowers Your Learning</h2>
+                <p class="section__description">Our platform makes it easy to find and enroll in courses that match your interests and skill level. Start your learning journey today with just a few clicks!</p>
+            </header>
+            <div class="section__body container">
+                <div class="opportunities">
+                    <ul class="opportunities__list">
+                        <li class="opportunities__item">
+                            <article class="opportunities__card">
+                                <img class="opportunities__icon" src="./assets/icons/opportunity-icon.svg" alt="" width="48" height="48">
+                                <h3 class="opportunities__header">Browse Courses Tailored to Your Interests</h3>
+                                <p class="opportunities__description">Explore a diverse catalog of courses at your fingertips.</p>
+                            </article>
+                        </li>
+                        <li class="opportunities__item">
+                            <article class="opportunities__card">
+                                <img class="opportunities__icon" src="./assets/icons/opportunity-icon.svg" alt="" width="48" height="48">
+                                <h3 class="opportunities__header">Enroll and Start Learning Instantly</h3>
+                                <p class="opportunities__description">Secure your spot in any course with ease.</p>
+                            </article>
+                        </li>
+                        <li class="opportunities__item">
+                            <article class="opportunities__card">
+                                <img class="opportunities__icon" src="./assets/icons/opportunity-icon.svg" alt="" width="48" height="48">
+                                <h3 class="opportunities__header">Engage with Interactive Learning Materials</h3>
+                                <p class="opportunities__description">Access videos, quizzes, and discussions to enhance your learning.</p>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+                <a class="opportunities__link-learn-more" href="./courses.html">
+                    <span>Learn more</span>
+                    <img src="./assets/icons/arrow-right-icon.svg"  alt="Learn more">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <header class="section__header">
+                <h2>Explore Our Featured Courses</h2>
+                <p class="section__description">Discover a variety of engaging online courses today.</p>
+            </header>
+
+            <div class="section__body container">
+                <div class="featured-courses">
+                    <ul class="featured-courses__list">
+                        <li class="featured-courses__item">
+                            <article class="featured-courses__card">
+                                <img class="featured-courses__card-image" src="./assets/images/courseCovers/course-cover-1.png" alt="" width="400" height="300">
+                                <div class="featured-courses__card-content">
+                                    <h3 class="featured-courses__card-header">JavaScript Developer</h3>
+                                    <p class="featured-courses__card-header">Learn the fundamentals of JavaScript for web development and interactive applications.</p>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="featured-courses__item">
+                            <article class="featured-courses__card">
+                                <img class="featured-courses__card-image" src="./assets/images/courseCovers/course-cover-3.png" alt="" width="400" height="300">
+                                <div class="featured-courses__card-content">
+                                    <h3 class="featured-courses__card-header">Machine Learning</h3>
+                                    <p class="featured-courses__card-header">Get started with machine learning concepts and practical applications.</p>
+                                </div>
+                            </article>
+                        </li>
+
+                        <li class="featured-courses__item">
+                            <article class="featured-courses__card">
+                                <img class="featured-courses__card-image" src="./assets/images/courseCovers/course-cover-10.png" alt="" width="400" height="300">
+                                <div class="featured-courses__card-content">
+                                    <h3 class="featured-courses__card-header">UI/UX Designer</h3>
+                                    <p class="featured-courses__card-header">Learn to design eye-catching graphics using Adobe Photoshop tools and techniques.</p>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+                <a class="opportunities__link-learn-more" href="./courses.html">
+                    <span>View More</span>
+                    <img src="./assets/icons/arrow-right-icon.svg"  alt="View more">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section__body container">
+                <div class="testimonials-container slider">
+
+                    <div class="slide">
+                       <div class="testimonials">
+                           <img class="testimonials__image-rate" src="./assets/images/stars.svg" alt="" width="115" height="19">
+                           <p class="testimonials__rate">"1 This platform transformed my learning experience! The courses are engaging and easy to navigate."</p>
+                           <div class="testimonials__reviewer">
+                               <div class="testimonials__reviewer-data">
+                                   <img class="testimonials__reviewer-avatar"  src="./assets/images/user-avatar.svg" alt="">
+                                   <p>
+                                       <span class="testimonials__reviewer-name">Jane Doe</span>
+                                       <br>
+                                       <span class="testimonials__reviewer-degree">Student, University X</span>
+                                   </p>
+                               </div>
+                               <img class="testimonials__reviewer-company-logo" src="./assets/images/logo-company.svg" alt="" width="120" height="50">
+                           </div>
+                       </div>
+                    </div>
+
+                    <div class="slide">
+                        <div class="testimonials">
+                            <img class="testimonials__image-rate" src="./assets/images/stars.svg" alt="" width="115" height="19">
+                            <p class="testimonials__rate">"This course catalog helped me switch careers! The structured content and clear explanations made it easy to stay motivated and track my progress."</p>
+                            <div class="testimonials__reviewer">
+                                <div class="testimonials__reviewer-data">
+                                    <img class="testimonials__reviewer-avatar"  src="./assets/images/user-avatar.svg" alt="">
+                                    <p>
+                                        <span class="testimonials__reviewer-name"> Michael Lee</span>
+                                        <br>
+                                        <span class="testimonials__reviewer-degree">Junior Developer, Freelance</span>
+                                    </p>
+                                </div>
+                                <img class="testimonials__reviewer-company-logo" src="./assets/images/logo-company.svg" alt="" width="120" height="50">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="slide">
+                        <div class="testimonials">
+                            <img class="testimonials__image-rate" src="./assets/images/stars.svg" alt="" width="115" height="19">
+                            <p class="testimonials__rate">"Absolutely love the learning flow! The platform is modern and intuitive, and the instructors are clearly industry pros."</p>
+                            <div class="testimonials__reviewer">
+                                <div class="testimonials__reviewer-data">
+                                    <img class="testimonials__reviewer-avatar"  src="./assets/images/user-avatar.svg" alt="">
+                                    <p>
+                                        <span class="testimonials__reviewer-name">Amina Rahman</span>
+                                        <br>
+                                        <span class="testimonials__reviewer-degree">Software Engineer, TechCo</span>
+                                    </p>
+                                </div>
+                                <img class="testimonials__reviewer-company-logo" src="./assets/images/logo-company.svg" alt="" width="120" height="50">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="slider__btn slider__btn--left">&larr;</button>
+                    <button class="slider__btn slider__btn--right">&rarr;</button>
+
+                    <div class="dots"></div>
+
+                </div>
+            </div>
+            </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <img class="footer__logo"
+             src="./assets/images/logo.svg"
+             alt=""
+             width="150"
+             height="100"
+             loading="lazy">
+
+        <nav class="footer__menu">
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="">Courses</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="">User Support</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="">Contacts</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="">About Us</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="">Blog Updates</a>
+                </li>
+            </ul>
+        </nav>
+
+      <div class="legal-info">
+          <p class="legal-info-rights">© 2025 Dmytro Gutorka. All rights reserved.</p>
+          <ul class="legal-info__list">
+            <li class="legal-info__item">
+                <a class="legal-info__link" href="">Privacy Policy</a>
+            </li>
+              <li class="legal-info__item">
+                  <a class="legal-info__link" href="">Terms of Service</a>
+              </li>
+              <li class="legal-info__item">
+                  <a class="legal-info__link" href="">Cookies Settings</a>
+              </li>
+          </ul>
+
+      </div>
+    </div>
+</footer>
+
+<dialog class="mobile-overlay visible-mobile" id="mobileOverlay">
+    <form class="mobile-overlay__close-button-wrapper" method="dialog">
+        <button class="mobile-overlay__close-button cross-button" type="submit">
+            <span class="visually-hidden">Close navigation menu</span>
+        </button>
+    </form>
+    <div class="mobile-overlay__body">
+        <ul class="mobile-overlay__list">
+            <li class="mobile-overlay__item">
+                <a class="mobile-overlay__link" href="./courses.html">Courses</a>
+            </li>
+            <li class="mobile-overlay__item">
+                <a class="mobile-overlay__link" href="./gallery.html">Gallery</a>
+            </li>
+            <li class="mobile-overlay__item">
+                <a class="mobile-overlay__link" href="./contacts.html">Contacts</a>
+            </li>
+            <li class="mobile-overlay__item">
+                <a class="mobile-overlay__link" href="./index.html">My list</a>
+            </li>
+            <li class="mobile-overlay__item">
+                <a class="mobile-overlay__link" href="./index.html">Wishlist</a>
+            </li>
+            <li class="mobile-overlay__item">
+                <a class="mobile-overlay__link" href="./index.html">Archived</a>
+            </li>
+        </ul>
+
+    </div>
+</dialog>
+
+<script src="../dist/js/search-init.js"></script>
+<script type="module" src="../dist/js/slider.js"></script>
+<script type="module" src="../dist/js/main.js"></script>
+
+</body>
+</html>

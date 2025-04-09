@@ -1,0 +1,15 @@
+{
+  "extends": "stylelint-config-standard-scss",
+  "rules": {
+    "indentation": [2, {
+      "except": ["block"],
+      "message": "Please use 2 spaces for indentation."
+    }],
+    "selector-class-pattern": [
+      "^[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+)?$",
+      {
+        "message": "Class names should follow BEM naming convention (e.g., block__element--modifier)"
+      }
+    ]
+  }
+}

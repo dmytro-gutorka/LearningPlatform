@@ -1,0 +1,10 @@
+@use '../base/mixins' as *;
+
+.btn {
+  @include flex-center();
+
+  height: var(--button-height);
+  border-radius: var(--border-radius-large);
+  padding-inline: 24px;
+  background: rgba(255, 255, 255, 0.1);
+}

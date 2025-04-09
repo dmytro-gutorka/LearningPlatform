@@ -1,0 +1,47 @@
+@use '../base/mixins' as *;
+
+
+.testimonials-container{
+  @include flex-center();
+
+}
+
+.testimonials {
+  @include flex-center();
+
+  max-width: 768px;
+  flex-direction: column;
+  gap: 32px;
+
+  & p {
+    color: var(--color-light);
+  }
+
+
+  &__reviewer {
+    display: flex;
+    gap: 40px;
+
+
+
+    &-name {
+      font-weight: bold;
+      position: relative;
+
+      &::after {
+        position: absolute;
+        content: '';
+        width: 1px;
+        height: 200%;
+        background-color: rgba(0,0,0, 0.10);
+        left: 195px;
+      }
+    }
+  }
+
+  &__reviewer-data {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+}

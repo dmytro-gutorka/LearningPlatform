@@ -1,0 +1,24 @@
+@use '../base/mixins' as *;
+
+.burger-button {
+  @include reset-button;
+  @include square(var(--button-height));
+
+  border-radius: var(--border-radius-small);
+  position: relative;
+
+  &::after{
+    @include abs-center;
+
+    content: '';
+    width: 50%;
+    height: 2px;
+    background-color: var(--color-light);
+    border-radius: var(--border-radius-large);
+    box-shadow: 0 -8px, 0 8px;
+  }
+
+  @include hover {
+      background-color: var(--color-light-grey);
+  }
+}

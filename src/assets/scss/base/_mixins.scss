@@ -1,0 +1,68 @@
+@mixin fluid-text($min: 16, $max: 56) {
+  $min-vw: 375;
+  $max-vw: 1440;
+
+  font-size: clamp(
+          #{$min}px,
+          calc(#{$min}px + (#{$max} - #{$min}) * ((100vw - #{$min-vw}px) / (#{$max-vw} - #{$min-vw}))),
+          #{$max}px
+  );
+}
+
+
+@mixin reset-link {
+  color: inherit;
+
+  &,
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+
+@mixin reset-button {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+
+@mixin flex-center($isInline: false) {
+  @if $isInline {
+    display: inline-flex;
+  } @else {
+    display: flex;
+  }
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+@mixin abs-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+
+@mixin square($size) {
+  width: $size;
+  aspect-ratio: 1;
+}
+
+
+@mixin hover {
+  @media (hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+
+  @media (hover: none) {
+    &:active {
+      @content;
+    }
+  }
+}
