@@ -15,7 +15,8 @@
       "Agile",
       "CSS"
     ],
-    "img": "./assets/images/courseCovers/course-cover-9.png"
+    "img": "./assets/images/courseCovers/course-cover-9.png",
+    "complexityLevel": 1
   },
   {
     "title": "Agile in Practice 2025",
@@ -33,7 +34,8 @@
       "HTML",
       "Vue.js"
     ],
-    "img": "./assets/images/courseCovers/course-cover-10.png"
+    "img": "./assets/images/courseCovers/course-cover-10.png",
+    "complexityLevel": 1
   },
   {
     "title": "TypeScript with React",
@@ -49,7 +51,8 @@
       "JavaScript",
       "React"
     ],
-    "img": "./assets/images/courseCovers/course-cover-3.png"
+    "img": "./assets/images/courseCovers/course-cover-3.png",
+    "complexityLevel": 2
   },
   {
     "title": "Node.js API Mastery",
@@ -67,7 +70,8 @@
       "HTML",
       "UI/UX"
     ],
-    "img": "./assets/images/courseCovers/course-cover-14.png"
+    "img": "./assets/images/courseCovers/course-cover-14.png",
+    "complexityLevel": 1
   },
   {
     "title": "Manual Testing Basics",
@@ -84,7 +88,8 @@
       "JavaScript",
       "Blockchain"
     ],
-    "img": "./assets/images/courseCovers/course-cover-13.png"
+    "img": "./assets/images/courseCovers/course-cover-13.png",
+    "complexityLevel": 1
   },
   {
     "title": "Frontend with HTML & CSS",
@@ -99,7 +104,8 @@
       "Blockchain",
       "Agile"
     ],
-    "img": "./assets/images/courseCovers/course-cover-13.png"
+    "img": "./assets/images/courseCovers/course-cover-13.png",
+    "complexityLevel": 1
   },
   {
     "title": "Augmented Reality with Unity",
@@ -117,7 +123,8 @@
       "React",
       "Python"
     ],
-    "img": "./assets/images/courseCovers/course-cover-4.png"
+    "img": "./assets/images/courseCovers/course-cover-4.png",
+    "complexityLevel": 2
   },
   {
     "title": "Python for Data Analysis Deep Dive",
@@ -134,7 +141,8 @@
       "MongoDB",
       "Blockchain"
     ],
-    "img": "./assets/images/courseCovers/course-cover-10.png"
+    "img": "./assets/images/courseCovers/course-cover-10.png",
+    "complexityLevel": 1
   },
   {
     "title": "Blockchain Fundamentals Crash Course",
@@ -149,7 +157,8 @@
       "Blockchain",
       "Node.js"
     ],
-    "img": "./assets/images/courseCovers/course-cover-2.png"
+    "img": "./assets/images/courseCovers/course-cover-2.png",
+    "complexityLevel": 2
   },
   {
     "title": "Responsive Web Design",
@@ -167,7 +176,8 @@
       "UI/UX",
       "Agile"
     ],
-    "img": "./assets/images/courseCovers/course-cover-14.png"
+    "img": "./assets/images/courseCovers/course-cover-14.png",
+    "complexityLevel": 1
   },
   {
     "title": "Vue.js for Beginners 2025",
@@ -184,7 +194,8 @@
       "CSS",
       "Docker"
     ],
-    "img": "./assets/images/courseCovers/course-cover-11.png"
+    "img": "./assets/images/courseCovers/course-cover-11.png",
+    "complexityLevel": 0
   },
   {
     "title": "Ethereum Dapps",
@@ -199,7 +210,8 @@
       "C#",
       "Blockchain"
     ],
-    "img": "./assets/images/courseCovers/course-cover-10.png"
+    "img": "./assets/images/courseCovers/course-cover-10.png",
+    "complexityLevel": 2
   },
   {
     "title": "PostgreSQL Advanced",
@@ -215,7 +227,8 @@
       "DevOps",
       "SQL"
     ],
-    "img": "./assets/images/courseCovers/course-cover-10.png"
+    "img": "./assets/images/courseCovers/course-cover-10.png",
+    "complexityLevel": 2
   },
   {
     "title": "Modern CSS Grid Masterclass",
@@ -231,7 +244,8 @@
       "Blockchain",
       "React"
     ],
-    "img": "./assets/images/courseCovers/course-cover-6.png"
+    "img": "./assets/images/courseCovers/course-cover-6.png",
+    "complexityLevel": 2
   },
   {
     "title": "PostgreSQL Advanced Deep Dive",
@@ -249,7 +263,8 @@
       "UI/UX",
       "Agile"
     ],
-    "img": "./assets/images/courseCovers/course-cover-13.png"
+    "img": "./assets/images/courseCovers/course-cover-13.png",
+    "complexityLevel": 2
   },
   {
     "title": "Responsive Web Design",
@@ -264,7 +279,8 @@
       "C#",
       "AWS"
     ],
-    "img": "./assets/images/courseCovers/course-cover-3.png"
+    "img": "./assets/images/courseCovers/course-cover-3.png",
+    "complexityLevel": 0
   },
   {
     "title": "Advanced TypeScript Essentials",
@@ -282,7 +298,8 @@
       "Django",
       "Blockchain"
     ],
-    "img": "./assets/images/courseCovers/course-cover-13.png"
+    "img": "./assets/images/courseCovers/course-cover-13.png",
+    "complexityLevel": 2
   },
   {
     "title": "Ethereum Dapps",
@@ -298,7 +315,8 @@
       "Django",
       "Kubernetes"
     ],
-    "img": "./assets/images/courseCovers/course-cover-10.png"
+    "img": "./assets/images/courseCovers/course-cover-10.png",
+    "complexityLevel": 1
   },
   {
     "title": "Python Automation",
@@ -314,7 +332,8 @@
       "DevOps",
       "CSS"
     ],
-    "img": "./assets/images/courseCovers/course-cover-5.png"
+    "img": "./assets/images/courseCovers/course-cover-5.png",
+    "complexityLevel": 1
   },
   {
     "title": "UI/UX Principles 2025",
@@ -330,7 +349,8 @@
       "Vue.js",
       "DevOps"
     ],
-    "img": "./assets/images/courseCovers/course-cover-14.png"
+    "img": "./assets/images/courseCovers/course-cover-14.png",
+    "complexityLevel": 0
   },
   {
     "title": "Agile in Practice",
@@ -348,7 +368,8 @@
       "Flutter",
       "JavaScript"
     ],
-    "img": "./assets/images/courseCovers/course-cover-2.png"
+    "img": "./assets/images/courseCovers/course-cover-2.png",
+    "complexityLevel": 2
   },
   {
     "title": "Python Automation",
@@ -363,7 +384,8 @@
       "MongoDB",
       "SQL"
     ],
-    "img": "./assets/images/courseCovers/course-cover-1.png"
+    "img": "./assets/images/courseCovers/course-cover-1.png",
+    "complexityLevel": 1
   },
   {
     "title": "Big Data with Hadoop",
@@ -378,7 +400,8 @@
       "MongoDB",
       "Kubernetes"
     ],
-    "img": "./assets/images/courseCovers/course-cover-15.png"
+    "img": "./assets/images/courseCovers/course-cover-15.png",
+    "complexityLevel": 2
   },
   {
     "title": "SQL from Scratch",
@@ -393,7 +416,8 @@
       "DevOps",
       "AWS"
     ],
-    "img": "./assets/images/courseCovers/course-cover-6.png"
+    "img": "./assets/images/courseCovers/course-cover-6.png",
+    "complexityLevel": 0
   },
   {
     "title": "Network Security",
@@ -411,7 +435,8 @@
       "Blockchain",
       "Python"
     ],
-    "img": "./assets/images/courseCovers/course-cover-9.png"
+    "img": "./assets/images/courseCovers/course-cover-9.png",
+    "complexityLevel": 1
   },
   {
     "title": "Figma from Zero",
@@ -426,7 +451,8 @@
       "MongoDB",
       "TypeScript"
     ],
-    "img": "./assets/images/courseCovers/course-cover-14.png"
+    "img": "./assets/images/courseCovers/course-cover-14.png",
+    "complexityLevel": 1
   },
   {
     "title": "Vue.js + Vuex Deep Dive",
@@ -441,7 +467,8 @@
       "DevOps",
       "C#"
     ],
-    "img": "./assets/images/courseCovers/course-cover-14.png"
+    "img": "./assets/images/courseCovers/course-cover-14.png",
+    "complexityLevel": 0
   },
   {
     "title": "Frontend with HTML & CSS",
@@ -456,7 +483,8 @@
       "Blockchain",
       "UI/UX"
     ],
-    "img": "./assets/images/courseCovers/course-cover-14.png"
+    "img": "./assets/images/courseCovers/course-cover-14.png",
+    "complexityLevel": 1
   },
   {
     "title": "Blockchain Fundamentals",
@@ -474,7 +502,8 @@
       "Django",
       "CSS"
     ],
-    "img": "./assets/images/courseCovers/course-cover-9.png"
+    "img": "./assets/images/courseCovers/course-cover-9.png",
+    "complexityLevel": 2
   },
   {
     "title": "Vue.js + Vuex Masterclass",
@@ -492,7 +521,8 @@
       "C#",
       "Node.js"
     ],
-    "img": "./assets/images/courseCovers/course-cover-12.png"
+    "img": "./assets/images/courseCovers/course-cover-12.png",
+    "complexityLevel": 0
   },
   {
     "title": "Frontend with HTML & CSS Deep Dive",
@@ -509,7 +539,8 @@
       "React",
       "TypeScript"
     ],
-    "img": "./assets/images/courseCovers/course-cover-7.png"
+    "img": "./assets/images/courseCovers/course-cover-7.png",
+    "complexityLevel": 1
   },
   {
     "title": "Solidity Smart Contracts",
@@ -524,7 +555,8 @@
       "SQL",
       "UI/UX"
     ],
-    "img": "./assets/images/courseCovers/course-cover-14.png"
+    "img": "./assets/images/courseCovers/course-cover-14.png",
+    "complexityLevel": 1
   },
   {
     "title": "Kubernetes Crash Course Deep Dive",
@@ -540,7 +572,8 @@
       "SQL",
       "HTML"
     ],
-    "img": "./assets/images/courseCovers/course-cover-4.png"
+    "img": "./assets/images/courseCovers/course-cover-4.png",
+    "complexityLevel": 0
   },
   {
     "title": "Solidity Smart Contracts Essentials",
@@ -555,7 +588,8 @@
       "Flutter",
       "Django"
     ],
-    "img": "./assets/images/courseCovers/course-cover-13.png"
+    "img": "./assets/images/courseCovers/course-cover-13.png",
+    "complexityLevel": 1
   },
   {
     "title": "Solidity Smart Contracts Masterclass",
@@ -573,7 +607,8 @@
       "JavaScript",
       "UI/UX"
     ],
-    "img": "./assets/images/courseCovers/course-cover-10.png"
+    "img": "./assets/images/courseCovers/course-cover-10.png",
+    "complexityLevel": 2
   },
   {
     "title": "GCP Essentials",
@@ -590,7 +625,8 @@
       "HTML",
       "Blockchain"
     ],
-    "img": "./assets/images/courseCovers/course-cover-6.png"
+    "img": "./assets/images/courseCovers/course-cover-6.png",
+    "complexityLevel": 0
   },
   {
     "title": "Docker for Developers Masterclass",
@@ -607,7 +643,8 @@
       "DevOps",
       "MongoDB"
     ],
-    "img": "./assets/images/courseCovers/course-cover-7.png"
+    "img": "./assets/images/courseCovers/course-cover-7.png",
+    "complexityLevel": 1
   },
   {
     "title": "Data Engineering Pipeline Masterclass",
@@ -625,7 +662,8 @@
       "Docker",
       "Flutter"
     ],
-    "img": "./assets/images/courseCovers/course-cover-7.png"
+    "img": "./assets/images/courseCovers/course-cover-7.png",
+    "complexityLevel": 0
   },
   {
     "title": "Frontend with HTML & CSS Essentials",
@@ -643,7 +681,8 @@
       "Node.js",
       "DevOps"
     ],
-    "img": "./assets/images/courseCovers/course-cover-5.png"
+    "img": "./assets/images/courseCovers/course-cover-5.png",
+    "complexityLevel": 2
   },
   {
     "title": "Blockchain Fundamentals Crash Course",
@@ -658,7 +697,8 @@
       "Node.js",
       "Flutter"
     ],
-    "img": "./assets/images/courseCovers/course-cover-7.png"
+    "img": "./assets/images/courseCovers/course-cover-7.png",
+    "complexityLevel": 0
   },
   {
     "title": "Blockchain Fundamentals",
@@ -676,7 +716,8 @@
       "HTML",
       "React"
     ],
-    "img": "./assets/images/courseCovers/course-cover-7.png"
+    "img": "./assets/images/courseCovers/course-cover-7.png",
+    "complexityLevel": 2
   },
   {
     "title": "Manual Testing Basics",
@@ -694,7 +735,8 @@
       "HTML",
       "Vue.js"
     ],
-    "img": "./assets/images/courseCovers/course-cover-5.png"
+    "img": "./assets/images/courseCovers/course-cover-5.png",
+    "complexityLevel": 1
   },
   {
     "title": "Flutter for Designers Essentials",
@@ -710,7 +752,8 @@
       "Vue.js",
       "DevOps"
     ],
-    "img": "./assets/images/courseCovers/course-cover-13.png"
+    "img": "./assets/images/courseCovers/course-cover-13.png",
+    "complexityLevel": 2
   },
   {
     "title": "MySQL Performance Tuning",
@@ -727,7 +770,8 @@
       "Python",
       "TypeScript"
     ],
-    "img": "./assets/images/courseCovers/course-cover-10.png"
+    "img": "./assets/images/courseCovers/course-cover-10.png",
+    "complexityLevel": 2
   },
   {
     "title": "Nuxt.js Essentials Masterclass",
@@ -742,7 +786,8 @@
       "Django",
       "Python"
     ],
-    "img": "./assets/images/courseCovers/course-cover-6.png"
+    "img": "./assets/images/courseCovers/course-cover-6.png",
+    "complexityLevel": 1
   },
   {
     "title": "Project Management Basics",
@@ -757,7 +802,8 @@
       "Vue.js",
       "Node.js"
     ],
-    "img": "./assets/images/courseCovers/course-cover-14.png"
+    "img": "./assets/images/courseCovers/course-cover-14.png",
+    "complexityLevel": 2
   },
   {
     "title": "Network Security Deep Dive",
@@ -774,7 +820,8 @@
       "HTML",
       "AWS"
     ],
-    "img": "./assets/images/courseCovers/course-cover-6.png"
+    "img": "./assets/images/courseCovers/course-cover-6.png",
+    "complexityLevel": 2
   },
   {
     "title": "JavaScript Fundamentals Masterclass",
@@ -792,7 +839,8 @@
       "AWS",
       "UI/UX"
     ],
-    "img": "./assets/images/courseCovers/course-cover-9.png"
+    "img": "./assets/images/courseCovers/course-cover-9.png",
+    "complexityLevel": 2
   },
   {
     "title": "Big Data with Hadoop",
@@ -810,7 +858,8 @@
       "Node.js",
       "Blockchain"
     ],
-    "img": "./assets/images/courseCovers/course-cover-12.png"
+    "img": "./assets/images/courseCovers/course-cover-12.png",
+    "complexityLevel": 0
   },
   {
     "title": "Responsive Web Design Essentials",
@@ -827,7 +876,8 @@
       "UI/UX",
       "CSS"
     ],
-    "img": "./assets/images/courseCovers/course-cover-7.png"
+    "img": "./assets/images/courseCovers/course-cover-7.png",
+    "complexityLevel": 0
   },
   {
     "title": "Ethereum Dapps",
@@ -845,7 +895,8 @@
       "HTML",
       "C#"
     ],
-    "img": "./assets/images/courseCovers/course-cover-7.png"
+    "img": "./assets/images/courseCovers/course-cover-7.png",
+    "complexityLevel": 1
   },
   {
     "title": "JavaScript for PRO",
@@ -860,7 +911,8 @@
       "Kubernetes",
       "Docker"
     ],
-    "img": "./assets/images/courseCovers/course-cover-6.png"
+    "img": "./assets/images/courseCovers/course-cover-6.png",
+    "complexityLevel": 0
   },
   {
     "title": "Blockchain Fundamentals Masterclass",
@@ -875,7 +927,8 @@
       "Python",
       "HTML"
     ],
-    "img": "./assets/images/courseCovers/course-cover-2.png"
+    "img": "./assets/images/courseCovers/course-cover-2.png",
+    "complexityLevel": 2
   },
   {
     "title": "JavaScript with TypeScript",
@@ -890,7 +943,8 @@
       "Kubernetes",
       "Flutter"
     ],
-    "img": "./assets/images/courseCovers/course-cover-9.png"
+    "img": "./assets/images/courseCovers/course-cover-9.png",
+    "complexityLevel": 1
   },
   {
     "title": "JavaScript from scratch",
@@ -908,7 +962,8 @@
       "Agile",
       "Python"
     ],
-    "img": "./assets/images/courseCovers/course-cover-9.png"
+    "img": "./assets/images/courseCovers/course-cover-9.png",
+    "complexityLevel": 0
   },
   {
     "title": "SQL from Scratch Essentials",
@@ -925,7 +980,8 @@
       "CSS",
       "Python"
     ],
-    "img": "./assets/images/courseCovers/course-cover-5.png"
+    "img": "./assets/images/courseCovers/course-cover-5.png",
+    "complexityLevel": 2
   },
   {
     "title": "Node.js API Mastery",
@@ -941,7 +997,8 @@
       "Vue.js",
       "C#"
     ],
-    "img": "./assets/images/courseCovers/course-cover-15.png"
+    "img": "./assets/images/courseCovers/course-cover-15.png",
+    "complexityLevel": 0
   },
   {
     "title": "Unity Game Dev Deep Dive",
@@ -956,7 +1013,8 @@
       "Flutter",
       "C#"
     ],
-    "img": "./assets/images/courseCovers/course-cover-14.png"
+    "img": "./assets/images/courseCovers/course-cover-14.png",
+    "complexityLevel": 2
   },
   {
     "title": "JavaScript for Beginners Deep Dive",
@@ -973,7 +1031,8 @@
       "HTML",
       "C#"
     ],
-    "img": "./assets/images/courseCovers/course-cover-8.png"
+    "img": "./assets/images/courseCovers/course-cover-8.png",
+    "complexityLevel": 2
   },
   {
     "title": "TypeScript with React Crash Course",
@@ -989,7 +1048,8 @@
       "MongoDB",
       "Vue.js"
     ],
-    "img": "./assets/images/courseCovers/course-cover-7.png"
+    "img": "./assets/images/courseCovers/course-cover-7.png",
+    "complexityLevel": 0
   },
   {
     "title": "Cloud Basics with AWS Essentials",
@@ -1005,7 +1065,8 @@
       "Kubernetes",
       "MongoDB"
     ],
-    "img": "./assets/images/courseCovers/course-cover-7.png"
+    "img": "./assets/images/courseCovers/course-cover-7.png",
+    "complexityLevel": 0
   },
   {
     "title": "Network Security 2025",
@@ -1021,7 +1082,8 @@
       "DevOps",
       "Django"
     ],
-    "img": "./assets/images/courseCovers/course-cover-15.png"
+    "img": "./assets/images/courseCovers/course-cover-15.png",
+    "complexityLevel": 0
   },
   {
     "title": "Node.js Essentials Masterclass",
@@ -1037,7 +1099,8 @@
       "SQL",
       "AWS"
     ],
-    "img": "./assets/images/courseCovers/course-cover-12.png"
+    "img": "./assets/images/courseCovers/course-cover-12.png",
+    "complexityLevel": 2
   },
   {
     "title": "PostgreSQL Advanced 2025",
@@ -1055,7 +1118,8 @@
       "C#",
       "Agile"
     ],
-    "img": "./assets/images/courseCovers/course-cover-10.png"
+    "img": "./assets/images/courseCovers/course-cover-10.png",
+    "complexityLevel": 2
   },
   {
     "title": "Design Systems with Figma",
@@ -1073,7 +1137,8 @@
       "Python",
       "Node.js"
     ],
-    "img": "./assets/images/courseCovers/course-cover-1.png"
+    "img": "./assets/images/courseCovers/course-cover-1.png",
+    "complexityLevel": 0
   },
   {
     "title": "Cybersecurity Basics Essentials",
@@ -1090,7 +1155,8 @@
       "AWS",
       "Vue.js"
     ],
-    "img": "./assets/images/courseCovers/course-cover-11.png"
+    "img": "./assets/images/courseCovers/course-cover-11.png",
+    "complexityLevel": 1
   },
   {
     "title": "Manual Testing Basics",
@@ -1106,7 +1172,8 @@
       "Python",
       "React"
     ],
-    "img": "./assets/images/courseCovers/course-cover-12.png"
+    "img": "./assets/images/courseCovers/course-cover-12.png",
+    "complexityLevel": 1
   },
   {
     "title": "JavaScript Crash Course",
@@ -1124,7 +1191,8 @@
       "Blockchain",
       "Kubernetes"
     ],
-    "img": "./assets/images/courseCovers/course-cover-8.png"
+    "img": "./assets/images/courseCovers/course-cover-8.png",
+    "complexityLevel": 1
   },
   {
     "title": "Cloud Basics with AWS",
@@ -1142,7 +1210,8 @@
       "C#",
       "Vue.js"
     ],
-    "img": "./assets/images/courseCovers/course-cover-15.png"
+    "img": "./assets/images/courseCovers/course-cover-15.png",
+    "complexityLevel": 2
   },
   {
     "title": "JavaScript Fundamentals",
@@ -1160,7 +1229,8 @@
       "React",
       "UI/UX"
     ],
-    "img": "./assets/images/courseCovers/course-cover-12.png"
+    "img": "./assets/images/courseCovers/course-cover-12.png",
+    "complexityLevel": 2
   },
   {
     "title": "Advanced JavaScript Essentials",
@@ -1176,7 +1246,8 @@
       "Docker",
       "SQL"
     ],
-    "img": "./assets/images/courseCovers/course-cover-8.png"
+    "img": "./assets/images/courseCovers/course-cover-8.png",
+    "complexityLevel": 0
   },
   {
     "title": "JavaScript Essentials",
@@ -1194,7 +1265,8 @@
       "TypeScript",
       "CSS"
     ],
-    "img": "./assets/images/courseCovers/course-cover-8.png"
+    "img": "./assets/images/courseCovers/course-cover-8.png",
+    "complexityLevel": 1
   },
   {
     "title": "Flutter for Designers",
@@ -1210,7 +1282,8 @@
       "React",
       "HTML"
     ],
-    "img": "./assets/images/courseCovers/course-cover-6.png"
+    "img": "./assets/images/courseCovers/course-cover-6.png",
+    "complexityLevel": 2
   },
   {
     "title": "Python Automation Deep Dive",
@@ -1227,7 +1300,8 @@
       "MongoDB",
       "CSS"
     ],
-    "img": "./assets/images/courseCovers/course-cover-14.png"
+    "img": "./assets/images/courseCovers/course-cover-14.png",
+    "complexityLevel": 0
   },
   {
     "title": "JavaScript Language Basics",
@@ -1242,7 +1316,8 @@
       "Docker",
       "Django"
     ],
-    "img": "./assets/images/courseCovers/course-cover-2.png"
+    "img": "./assets/images/courseCovers/course-cover-2.png",
+    "complexityLevel": 1
   },
   {
     "title": "QA Automation with Selenium Crash Course",
@@ -1258,7 +1333,8 @@
       "Blockchain",
       "TypeScript"
     ],
-    "img": "./assets/images/courseCovers/course-cover-11.png"
+    "img": "./assets/images/courseCovers/course-cover-11.png",
+    "complexityLevel": 0
   },
   {
     "title": "Express with MongoDB",
@@ -1274,7 +1350,8 @@
       "Kubernetes",
       "JavaScript"
     ],
-    "img": "./assets/images/courseCovers/course-cover-4.png"
+    "img": "./assets/images/courseCovers/course-cover-4.png",
+    "complexityLevel": 0
   },
   {
     "title": "MySQL Performance Tuning",
@@ -1290,7 +1367,8 @@
       "TypeScript",
       "Docker"
     ],
-    "img": "./assets/images/courseCovers/course-cover-12.png"
+    "img": "./assets/images/courseCovers/course-cover-12.png",
+    "complexityLevel": 0
   },
   {
     "title": "Ethical Hacking Fundamentals Deep Dive",
@@ -1305,7 +1383,8 @@
       "Kubernetes",
       "TypeScript"
     ],
-    "img": "./assets/images/courseCovers/course-cover-12.png"
+    "img": "./assets/images/courseCovers/course-cover-12.png",
+    "complexityLevel": 1
   },
   {
     "title": "Python for Data Analysis 2025",
@@ -1321,7 +1400,8 @@
       "UI/UX",
       "TypeScript"
     ],
-    "img": "./assets/images/courseCovers/course-cover-3.png"
+    "img": "./assets/images/courseCovers/course-cover-3.png",
+    "complexityLevel": 0
   },
   {
     "title": "Figma from Zero Essentials",
@@ -1336,7 +1416,8 @@
       "Django",
       "AWS"
     ],
-    "img": "./assets/images/courseCovers/course-cover-8.png"
+    "img": "./assets/images/courseCovers/course-cover-8.png",
+    "complexityLevel": 2
   },
   {
     "title": "Advanced TypeScript",
@@ -1351,7 +1432,8 @@
       "Docker",
       "HTML"
     ],
-    "img": "./assets/images/courseCovers/course-cover-15.png"
+    "img": "./assets/images/courseCovers/course-cover-15.png",
+    "complexityLevel": 1
   },
   {
     "title": "Node.js Essentials 2025",
@@ -1366,7 +1448,8 @@
       "Python",
       "Blockchain"
     ],
-    "img": "./assets/images/courseCovers/course-cover-4.png"
+    "img": "./assets/images/courseCovers/course-cover-4.png",
+    "complexityLevel": 1
   },
   {
     "title": "Docker for Developers",
@@ -1382,7 +1465,8 @@
       "CSS",
       "UI/UX"
     ],
-    "img": "./assets/images/courseCovers/course-cover-3.png"
+    "img": "./assets/images/courseCovers/course-cover-3.png",
+    "complexityLevel": 0
   },
   {
     "title": "Flutter for Designers",
@@ -1398,7 +1482,8 @@
       "C#",
       "SQL"
     ],
-    "img": "./assets/images/courseCovers/course-cover-12.png"
+    "img": "./assets/images/courseCovers/course-cover-12.png",
+    "complexityLevel": 1
   },
   {
     "title": "Modern CSS Grid",
@@ -1413,7 +1498,8 @@
       "MongoDB",
       "AWS"
     ],
-    "img": "./assets/images/courseCovers/course-cover-4.png"
+    "img": "./assets/images/courseCovers/course-cover-4.png",
+    "complexityLevel": 1
   },
   {
     "title": "Flutter for Designers Masterclass",
@@ -1430,7 +1516,8 @@
       "AWS",
       "Vue.js"
     ],
-    "img": "./assets/images/courseCovers/course-cover-15.png"
+    "img": "./assets/images/courseCovers/course-cover-15.png",
+    "complexityLevel": 2
   },
   {
     "title": "Modern CSS Grid",
@@ -1448,7 +1535,8 @@
       "Docker",
       "Django"
     ],
-    "img": "./assets/images/courseCovers/course-cover-9.png"
+    "img": "./assets/images/courseCovers/course-cover-9.png",
+    "complexityLevel": 2
   },
   {
     "title": "Augmented Reality with Unity Masterclass",
@@ -1463,7 +1551,8 @@
       "Agile",
       "TypeScript"
     ],
-    "img": "./assets/images/courseCovers/course-cover-7.png"
+    "img": "./assets/images/courseCovers/course-cover-7.png",
+    "complexityLevel": 0
   },
   {
     "title": "Apache Spark 101 Masterclass",
@@ -1480,7 +1569,8 @@
       "Kubernetes",
       "UI/UX"
     ],
-    "img": "./assets/images/courseCovers/course-cover-15.png"
+    "img": "./assets/images/courseCovers/course-cover-15.png",
+    "complexityLevel": 0
   },
   {
     "title": "Data Engineering Pipeline",
@@ -1497,7 +1587,8 @@
       "Blockchain",
       "Docker"
     ],
-    "img": "./assets/images/courseCovers/course-cover-14.png"
+    "img": "./assets/images/courseCovers/course-cover-14.png",
+    "complexityLevel": 2
   },
   {
     "title": "JavaScript Advanced",
@@ -1514,7 +1605,8 @@
       "TypeScript",
       "JavaScript"
     ],
-    "img": "./assets/images/courseCovers/course-cover-8.png"
+    "img": "./assets/images/courseCovers/course-cover-8.png",
+    "complexityLevel": 0
   },
   {
     "title": "JavaScript Testing Crash Course",
@@ -1531,7 +1623,8 @@
       "Docker",
       "Blockchain"
     ],
-    "img": "./assets/images/courseCovers/course-cover-7.png"
+    "img": "./assets/images/courseCovers/course-cover-7.png",
+    "complexityLevel": 0
   },
   {
     "title": "Modern CSS and JavaScript",
@@ -1548,7 +1641,8 @@
       "SQL",
       "Blockchain"
     ],
-    "img": "./assets/images/courseCovers/course-cover-8.png"
+    "img": "./assets/images/courseCovers/course-cover-8.png",
+    "complexityLevel": 0
   },
   {
     "title": "React Hooks in Depth Essentials",
@@ -1564,7 +1658,8 @@
       "SQL",
       "UI/UX"
     ],
-    "img": "./assets/images/courseCovers/course-cover-15.png"
+    "img": "./assets/images/courseCovers/course-cover-15.png",
+    "complexityLevel": 0
   },
   {
     "title": "Flutter for Designers",
@@ -1581,7 +1676,8 @@
       "HTML",
       "Blockchain"
     ],
-    "img": "./assets/images/courseCovers/course-cover-7.png"
+    "img": "./assets/images/courseCovers/course-cover-7.png",
+    "complexityLevel": 1
   },
   {
     "title": "Scrum & Agile",
@@ -1596,7 +1692,8 @@
       "C#",
       "DevOps"
     ],
-    "img": "./assets/images/courseCovers/course-cover-13.png"
+    "img": "./assets/images/courseCovers/course-cover-13.png",
+    "complexityLevel": 1
   },
   {
     "title": "JavaScript Advanced Masterclass",
@@ -1612,7 +1709,8 @@
       "MongoDB",
       "JavaScript"
     ],
-    "img": "./assets/images/courseCovers/course-cover-6.png"
+    "img": "./assets/images/courseCovers/course-cover-6.png",
+    "complexityLevel": 1
   },
   {
     "title": "Solidity Smart Contracts",
@@ -1629,7 +1727,8 @@
       "Node.js",
       "MongoDB"
     ],
-    "img": "./assets/images/courseCovers/course-cover-3.png"
+    "img": "./assets/images/courseCovers/course-cover-3.png",
+    "complexityLevel": 1
   },
   {
     "title": "Responsive Web Design Crash Course",
@@ -1645,6 +1744,7 @@
       "MongoDB",
       "UI/UX"
     ],
-    "img": "./assets/images/courseCovers/course-cover-13.png"
+    "img": "./assets/images/courseCovers/course-cover-13.png",
+    "complexityLevel": 0
   }
 ]

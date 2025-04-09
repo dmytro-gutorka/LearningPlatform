@@ -26,6 +26,3 @@
     "stylelint-scss": "^6.11.1"
   }
 }
-
-"start": "parcel index.html",
-"build": "parcel build index.html --dist-dir ./dist"

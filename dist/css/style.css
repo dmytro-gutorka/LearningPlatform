@@ -767,6 +767,10 @@ section p {
   cursor: pointer;
   color: white;
 }
+.courses__result {
+  font-size: 20px;
+  color: white;
+}
 .courses__header {
   display: flex;
   justify-content: space-between;

@@ -13,7 +13,7 @@
 <body>
 <header class="header header__background-image">
     <div class="header__inner container">
-        <a href="./index.html" class="header__logo logo">
+        <a href="../index.html" class="header__logo logo">
             <img class="logo__image"
                  src="./assets/images/logo.svg"
                  alt="Online Learning Platform"
@@ -65,8 +65,9 @@
                     <div class="courses__sorting">
                         <label for="sort-select"></label>
                         <select class="courses__sorting-select" id="sort-select">
+                            <option class="courses__sorting-option">Sort by:</option>
                             <option class="courses__sorting-option" value="title">Sort by: Title (A → Z)</option>
-                            <option class="courses__sorting-option" value="difficulty">Sort by: Difficulty (Hard → Easy)</option>
+                            <option class="courses__sorting-option" value="complexityLevel">Sort by: Difficulty (Easy → Hard)</option>
                             <option class="courses__sorting-option" value="rating">Sort by: Rating (High → Low)</option>
                         </select>
                     </div>
@@ -205,8 +206,7 @@
 
     </div>
 </dialog>
-<script src="../dist/js/search-init.js"></script>
-<script type="module" src="../dist/js/main.js"></script>
 
+<script src="./assets/js/controller.js" type="module"></script>
 </body>
 </html>

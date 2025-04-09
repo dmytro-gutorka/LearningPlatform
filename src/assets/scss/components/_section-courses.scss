@@ -16,8 +16,9 @@
   }
 
 
-  &__sorting-option {
-
+  &__result {
+    font-size: 20px;
+    color: white;
   }
 
   &__header {
@@ -54,7 +55,6 @@
     @include mobile-small{
       flex-direction: column;
     }
-
 
 
     &-border-bt {
