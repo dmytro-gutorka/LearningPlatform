@@ -9,7 +9,7 @@
   "license": "ISC",
   "author": "Dmytro Gutorka",
   "type": "commonjs",
-  "main": "index.js",
+  "default": "index.js",
   "scripts": {
     "compile:sass": "sass src/assets/scss/main.scss dist/css/style.css",
     "watch:sass": "sass --watch src/assets/scss/main.scss dist/css/style.css",
@@ -26,3 +26,6 @@
     "stylelint-scss": "^6.11.1"
   }
 }
+
+"start": "parcel index.html",
+"build": "parcel build index.html --dist-dir ./dist"
