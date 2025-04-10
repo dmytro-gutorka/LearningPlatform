@@ -4,6 +4,7 @@ import {PATH, RESULTS_PER_PAGE} from './core/constants.js';
 export const state = {
     courses: [],
     searchedCourses: [],
+    query: '',
 }
 
 
@@ -53,3 +54,9 @@ const sortByRating = (a, b) => b.rating - a.rating;
 
 const sortByComplexity =  (a, b) => a.complexityLevel - b.complexityLevel ;
 
+
+
+export function isCurrentPage() {
+
+    return
+}
