@@ -1,10 +1,9 @@
-import {PATH, RESULTS_PER_PAGE} from './config.js';
+import {PATH, RESULTS_PER_PAGE} from './core/constants.js';
 
 
 export const state = {
     courses: [],
     searchedCourses: [],
-    query: '',
 }
 
 

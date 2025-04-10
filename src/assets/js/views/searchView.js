@@ -4,20 +4,14 @@ const coursesContainer = document.querySelector('.courses__cards');
 const numbersOfCoursesElement = document.querySelector('.courses__result');
 
 
-export function test(handler) {
-    window.addEventListener('DOMContentLoaded', async () => {
-        handler()
-    });
-
+export function addSearchPageHandler(handler) {
+    window.addEventListener('DOMContentLoaded',  handler);
 }
-
-
 
 
 export function addSearchHandler(handler) {
     searchForm.addEventListener('submit', (e) => {
         e.preventDefault()
-
         handler()
     })
 }
@@ -25,6 +19,7 @@ export function addSearchHandler(handler) {
 
 export function getQuery() {
     const query = searchInput.value.trim();
+    localStorage.setItem('searchQuery', query);
     searchInput.value = '';
 
     return query
