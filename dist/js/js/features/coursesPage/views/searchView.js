@@ -1,28 +1,9 @@
-const searchForm = document.querySelector('.search');
-const searchInput = document.querySelector('.header__search-field');
 const coursesContainer = document.querySelector('.courses__cards');
 const numbersOfCoursesElement = document.querySelector('.courses__result');
 
 
 export function addSearchHandler(handler) {
     window.addEventListener('DOMContentLoaded',  handler);
-}
-
-
-export function addSearchPageHandler(handler) {
-    searchForm.addEventListener('submit', (e) => {
-        e.preventDefault()
-        handler()
-    })
-}
-
-
-export function getQuery() {
-    const query = searchInput.value.trim();
-    localStorage.setItem('searchQuery', query);
-    searchInput.value = '';
-
-    return query
 }
 
 
