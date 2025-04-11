@@ -19,12 +19,12 @@ export function initGlobalSearch() {
 }
 
 
-async function handleSearch() {
+function handleSearch() {
     const query = getQuery();
     saveSearchQuery(query);
 
     if (query.length <= 0) return;
 
     if (!isCurrentPage(COURSE_PAGE)) window.location.href = 'src/courses.html';
-    if (isCurrentPage(COURSE_PAGE)) await controlSearchPage();
+    if (isCurrentPage(COURSE_PAGE)) controlSearchPage();
 }

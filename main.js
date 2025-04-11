@@ -1,10 +1,13 @@
 import { initCoursesPage } from './src/assets/js/features/coursesPage/controller.js'
 import { initGlobalSearch } from './src/assets/js/core/search/controller.js'
+import { initSlides } from './src/assets/js/core/slider/controller.js'
+
 
 
 
 const routes = {
     '/LearningPlatform/src/courses.html': initCoursesPage,
+    '/LearningPlatform/index.html': initSlides
 }
 
 

@@ -19,7 +19,7 @@ export function initGlobalSearch() {
 }
 
 
-async function handleSearch() {
+function handleSearch() {
     const query = getQuery();
     saveSearchQuery(query);
 
