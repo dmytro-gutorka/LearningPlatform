@@ -1,21 +1,22 @@
 import { initCoursesPage } from './src/assets/js/features/coursesPage/controller.js'
 import { initGlobalSearch } from './src/assets/js/core/search/controller.js'
 import { initSlides } from './src/assets/js/core/slider/controller.js'
+import { initPagination } from './src/assets/js/core/pagination/controller.js'
 
 
 
 
 const routes = {
-    '/LearningPlatform/src/courses.html': initCoursesPage,
-    '/LearningPlatform/index.html': initSlides
+    '/LearningPlatform/src/courses.html': [initCoursesPage, initPagination],
+    '/LearningPlatform/index.html': [initSlides]
 }
 
 
 function initRouter() {
     const currentPage = window.location.pathname;
-    const initPage = routes[currentPage];
+    const initModules = routes[currentPage];
 
-    if (initPage) initPage()
+    if (initModules) initModules.forEach(initFn => initFn())
 }
 
 

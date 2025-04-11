@@ -65,28 +65,27 @@ const sortByComplexity = (a, b) => a.complexityLevel - b.complexityLevel ;
 
 
 function filterByRating() {
-    console.log(state.filteredCourses)
-
     const inputValue = document.querySelector('input[name="rating"]:checked')?.value;
     if (!inputValue) return;
 
     state.filteredCourses = state.filteredCourses.filter(course => course.rating >= inputValue);
-    console.log(state.filteredCourses)
 }
 
 
 function filterByComplexity() {
-    console.log(state.filteredCourses)
     const inputValues = Array.from(document.querySelectorAll('input[name="level"]:checked'))
         .map(input => input.value.toLowerCase());
     if (!inputValues.length) return;
 
     state.filteredCourses = state.filteredCourses.filter(course => inputValues.includes(course.difficulty.toLowerCase()))
-    console.log(state.filteredCourses)
+}
+
+
+export function copySearchResult() {
+    state.filteredCourses = [...state.searchedCourses]
 }
 
 
 export function applyFilters() {
-    state.filteredCourses = [...state.searchedCourses]
     filters.forEach(filterFn => filterFn())
 }

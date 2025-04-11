@@ -25,7 +25,6 @@ function controlDots(dotNumber) {
 }
 
 
-
 export function initSlides() {
     const slides = sliderView.getAllSlides()
 

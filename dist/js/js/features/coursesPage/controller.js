@@ -2,6 +2,7 @@ import * as model from './model.js';
 import * as searchView from './views/searchView.js';
 import * as sortView from './views/sortView.js';
 import * as filtersView from './views/filterView.js';
+import {copySearchResult} from "./model.js";
 
 
 
@@ -35,6 +36,7 @@ function controlSort(selectedValue) {
 function controlFilters() {
     const query = localStorage.getItem('searchQuery');
 
+    model.copySearchResult()
     model.applyFilters()
 
     searchView.renderNumberOfResults(query, model.state.filteredCourses.length)

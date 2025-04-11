@@ -35,6 +35,7 @@ function controlSort(selectedValue) {
 function controlFilters() {
     const query = localStorage.getItem('searchQuery');
 
+    model.copySearchResult()
     model.applyFilters()
 
     searchView.renderNumberOfResults(query, model.state.filteredCourses.length)

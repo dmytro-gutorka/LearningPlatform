@@ -20,10 +20,9 @@ function controlNextSlide() {
 function controlDots(dotNumber) {
     sliderModel.state.currentSlide = dotNumber
 
-    sliderView.goToSlides(dotNumber)
+    sliderView.goToSlides(sliderModel.state.currentSlide)
     sliderView.setActiveDot(sliderModel.state.currentSlide);
 }
-
 
 
 export function initSlides() {
