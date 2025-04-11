@@ -2,7 +2,6 @@ import * as model from './model.js';
 import * as searchView from './views/searchView.js';
 import * as sortView from './views/sortView.js';
 import * as filtersView from './views/filterView.js';
-import {copySearchResult} from "./model.js";
 
 
 

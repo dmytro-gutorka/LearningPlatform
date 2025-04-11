@@ -6,7 +6,6 @@ import { isCurrentPage} from "../helpers.js";
 import { getQuery } from "./searchView.js";
 
 
-
 export function initGlobalSearch() {
     const searchForm = document.querySelector('.search');
 
