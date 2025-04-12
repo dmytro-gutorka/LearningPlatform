@@ -29,9 +29,6 @@ export function controlPaginatedData(data) {
     const paginatedData = paginationModel.getPaginatedData(data)
 
     paginationView.renderPaginationButtons(paginationModel.state.currentPage, totalPages)
-    console.log(paginationModel.state.currentPage)
-    console.log(totalPages)
-    console.log(paginatedData)
 
     return paginatedData
 }

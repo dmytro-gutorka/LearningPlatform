@@ -19,9 +19,8 @@ export function addHandlerPagination(handler) {
 
 
 export function renderPaginationButtons(currentPage, maxPage) {
-    // if (maxPage === 1)  return;
-
     let markup = ''
+
     paginationContainer.innerHTML = ''
 
     if (currentPage > 1) markup += generatePaginationPrevButton()
