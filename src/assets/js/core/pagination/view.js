@@ -1,9 +1,10 @@
 let paginationContainer = document.querySelector('.pagination');
 
 
-
 export function addHandlerPagination(handler) {
+
     paginationContainer.addEventListener('click', (e) => {
+
         const clickedEl = e.target.closest('.pagination__btn')
 
         if (!clickedEl) return;
@@ -19,11 +20,12 @@ export function addHandlerPagination(handler) {
 
 export function renderPaginationButtons(currentPage, maxPage) {
     let markup = ''
+
     paginationContainer.innerHTML = ''
 
     if (currentPage > 1) markup += generatePaginationPrevButton()
-    markup += generatePaginationNumbersButton(currentPage, maxPage)
-    if (currentPage !== maxPage) markup += generatePaginationNextButton()
+    if (maxPage > 1) markup += generatePaginationNumbersButton(currentPage, maxPage)
+    if (currentPage < maxPage && maxPage > 1) markup += generatePaginationNextButton()
 
     paginationContainer.innerHTML = markup;
 }
@@ -38,8 +40,10 @@ export function generatePaginationNumbersButton(currentPage, maxPage) {
     for (let page = prevPage; page <= nextPage; page++) {
         if (page === 0 || page > maxPage) continue;
 
-        markup += `<button class="pagination__btn pagination__number-btn 
-            ${page === currentPage ? "pagination__number-btn-active" : ""}" data-page="${page}">${page}</button>`
+        markup += `
+            <button class="pagination__btn pagination__number-btn 
+            ${page === currentPage ? "pagination__number-btn-active" : ""}" 
+            data-page="${page}">${page}</button>`
     }
     return markup
 }
@@ -53,4 +57,3 @@ export function generatePaginationPrevButton() {
 export function generatePaginationNextButton() {
     return `<button class="pagination__btn pagination__next-btn">N</button>`
 }
-
