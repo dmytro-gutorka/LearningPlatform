@@ -1,4 +1,5 @@
-import {PATH} from '../../core/constants.js';
+import { PATH } from '../../core/constants.js';
+import { getJSON } from '../../core/helpers.js';
 
 
 
@@ -13,27 +14,18 @@ export const state = {
 const filters = [filterByRating, filterByComplexity]
 
 
-
-async function getJSON(url) {
-    const result = await fetch(url);
-    const data = await result.json();
-
-    if (!result.ok) return;
-
-    return data
-}
-
-
 export async function loadCourses() {
 
     try {
-        state.courses  = await getJSON(PATH)
+        const data =  await getJSON(PATH)
+        return Array.isArray(data) ? data : [];
     }
 
     catch(err) {
-        console.error('Error occurred', err)
+        console.error('Could not load the courses', err)
     }
 }
+
 
 
 export function loadSearchResult(query) {

@@ -1,15 +1,15 @@
+import * as helper from '../../core/helpers.js'
 import * as model from './model.js';
 import * as searchView from './views/searchView.js';
 import * as sortView from './views/sortView.js';
 import * as filtersView from './views/filterView.js';
 import * as paginationController from '../../core/pagination/controller.js'
-import * as paginationModel from '../../core/pagination/model.js'
 
 
 //mb init state load all the courses from model.state.courses
 //reset result after page reload
 
-//paginationModel.state.currentPage = 1 move to function controlHandlePaginatedData ?
+// filter, sort reset ?
 
 
 export async function controlSearchPage() {
@@ -17,10 +17,10 @@ export async function controlSearchPage() {
 
     if (!query) return;
 
-    await model.loadCourses();
+    model.state.courses = await model.loadCourses();
     model.loadSearchResult(query);
 
-    controlHandlePaginatedData(model.state.searchedCourses)
+    controlPaginatedData(model.state.searchedCourses)
 }
 
 
@@ -29,7 +29,7 @@ function controlSort(selectedValue) {
 
     model.sortCourses(model.state.filteredCourses, selectedValue)
 
-    controlHandlePaginatedData(model.state.filteredCourses)
+    controlPaginatedData(model.state.filteredCourses)
 }
 
 
@@ -37,14 +37,14 @@ function controlFilters() {
     model.copySearchResult()
     model.applyFilters()
 
-    controlHandlePaginatedData(model.state.filteredCourses)
+    controlPaginatedData(model.state.filteredCourses)
 }
 
 
-function controlHandlePaginatedData(data) {
+function controlPaginatedData(data) {
     const query = localStorage.getItem('searchQuery');
 
-    paginationModel.state.currentPage = 1
+    helper.resetPagination()
 
     const paginatedData = paginationController.controlPaginatedData(data)
 

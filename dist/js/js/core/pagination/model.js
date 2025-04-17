@@ -1,4 +1,4 @@
-import { RESULTS_PER_PAGE} from '../constants.js'
+import { RESULTS_PER_PAGE } from '../constants.js'
 
 
 export const state = {
