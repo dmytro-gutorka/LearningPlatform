@@ -29,4 +29,5 @@ async function controlWithList(courseId) {
 export async function initWishList() {
     wishListView.addWishListHandler(controlWithList)
 
+
 }

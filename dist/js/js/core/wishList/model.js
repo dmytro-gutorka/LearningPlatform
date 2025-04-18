@@ -29,7 +29,7 @@ function addCourseToWishList(courseId) {
 
 function removeCourseFromWishList(courseId) {
     const wishList = getWishListCourses()
-    const courseById = getCourseById(courseId)
+    const courseById = wishList.find(course => course.id === courseId)
     const courseIndex = wishList.indexOf(courseById)
 
     wishList.splice(courseIndex, 1)
@@ -45,4 +45,3 @@ function saveWishListToLocalStorage(wishList) {
 export function getWishListCourses() {
     return JSON.parse(localStorage.getItem('coursesWishList')) || []
 }
-
