@@ -9,11 +9,6 @@ export function addWishListHandler(handler) {
         if (!clickedBtn) return;
 
         const courseCardId = +clickedBtn.parentElement.parentElement.dataset.id
-        console.log(clickedBtn)
-        clickedBtn.classList.toggle('active')
-        console.log(clickedBtn.classList)
-
-        console.log(clickedBtn)
 
         handler(courseCardId)
     })

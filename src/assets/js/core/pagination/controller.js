@@ -35,7 +35,9 @@ export function controlPaginatedData(data) {
 
 
 export function initPagination() {
-    paginationView.renderPaginationButtons(paginationModel.state.currentPage, getTotalPages(coursePageModel.state.searchedCourses))
+    paginationView.renderPaginationButtons(paginationModel.state.currentPage,
+        getTotalPages(coursePageModel.state.searchedCourses))
+
     paginationView.addHandlerPagination(controlPagination)
 }
 

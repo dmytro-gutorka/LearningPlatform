@@ -4,7 +4,9 @@ import * as searchView from './views/searchView.js';
 import * as sortView from './views/sortView.js';
 import * as filtersView from './views/filterView.js';
 import * as paginationController from '../../core/pagination/controller.js'
+
 import { sortCourses } from '../../core/sotring/sorting.js'
+
 
 
 //mb init state load all the courses from model.state.courses
@@ -18,8 +20,6 @@ export async function controlSearchPage() {
     if (!query) return;
 
     model.state.courses = await model.loadCourses();
-
-    // всего скорей нужно тут изменять model.state.courses - добавлять проперти к каждому курсу
 
     model.loadSearchResult(query);
 

@@ -1,9 +1,9 @@
 import { controlSearchPage } from "../../features/coursesPage/controller.js";
 import { saveSearchQuery } from '../storage.js'
-
-import { COURSE_PAGE } from "../constants.js";
 import { isCurrentPage} from "../helpers.js";
 import { getQuery } from "./searchView.js";
+
+import { COURSE_PAGE } from "../constants.js";
 
 
 export function initGlobalSearch() {

@@ -1,19 +1,32 @@
 import * as wishListView from './view.js'
 import * as wishListModel from './model.js'
 
-import { renderCourses } from '../../features/coursesPage/views/searchView.js'
-import { loadCourses } from "../../features/coursesPage/model.js";
+import {loadCourses, updateJsonWithCourses} from "../../features/coursesPage/model.js";
+
+import * as coursePageModel from "../../features/coursesPage/model.js";
+import * as searchView from "../../features/coursesPage/views/searchView.js";
 
 
 async function controlWithList(courseId) {
-    if (!wishListModel.state.courses.length) wishListModel.state.courses = await loadCourses()
+    if (!wishListModel.state.courses.length)
+        wishListModel.state.courses = await loadCourses()
 
     wishListModel.updateWishList(courseId)
 
-    renderCourses(wishListModel.getWishListCourses())
+
+    let coursesWithWishListProperty
+
+    if (coursePageModel.state.filteredCourses.length >= 1)
+        coursesWithWishListProperty = updateJsonWithCourses(coursePageModel.state.filteredCourses)
+
+    if (coursePageModel.state.filteredCourses.length <= 0)
+        coursesWithWishListProperty = updateJsonWithCourses(coursePageModel.state.searchedCourses)
+
+    searchView.renderCourses(coursesWithWishListProperty)
 }
 
 
-export function initWishList() {
+export async function initWishList() {
     wishListView.addWishListHandler(controlWithList)
+
 }

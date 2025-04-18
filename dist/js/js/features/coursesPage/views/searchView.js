@@ -27,7 +27,7 @@ function generateCourseMarkup(course) {
                     <p class="courses__card-author"><span class="bold-underline">Instructor</span>: ${course.instructor}</p>
                     <p class="courses__card-complexity"><span class="bold-underline">Comlexity</span>: ${course.difficulty}</p>
                     <p class="courses__card-rating"><span class="bold-underline">Rating</span>: ${course.rating}</p>
-                    <button class="courses__btn-wish-list">Wish list </button>
+                    <button class="courses__btn-wish-list ${course.isWishListed ? 'active' : ''}">Wish list </button>
                 </div>
         </article>
     `

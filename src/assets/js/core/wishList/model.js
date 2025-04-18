@@ -5,6 +5,7 @@ export const state = {
 
 export function getCourseById(courseId) {
     if (!state.courses) return;
+
     return state.courses.find(course => course.id === courseId)
 }
 
@@ -44,3 +45,4 @@ function saveWishListToLocalStorage(wishList) {
 export function getWishListCourses() {
     return JSON.parse(localStorage.getItem('coursesWishList')) || []
 }
+

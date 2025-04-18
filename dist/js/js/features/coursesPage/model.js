@@ -2,6 +2,7 @@ import { PATH } from '../../core/constants.js';
 import { getJSON } from '../../core/helpers.js';
 
 import { filters } from '../../core/filtering/filtering.js'
+import {getWishListCourses} from "../../core/wishList/model.js";
 
 
 
@@ -9,15 +10,15 @@ export const state = {
     courses: [],
     searchedCourses: [],
     filteredCourses: [],
-    query: '',
 }
 
 
 export async function loadCourses() {
 
     try {
-        const data =  await getJSON(PATH)
-        return Array.isArray(data) ? data : [];
+        const loadedCourses =  await getJSON(PATH)
+        const updatedCourses = updateJsonWithCourses(loadedCourses)
+        return Array.isArray(updatedCourses) ? updatedCourses : [];
     }
 
     catch(err) {
@@ -29,8 +30,6 @@ export async function loadCourses() {
 export function loadSearchResult(query) {
     state.searchedCourses = state.courses.filter(course =>
         course.title.toLowerCase().includes(query.toLowerCase()));
-
-    state.filteredCourses = [...state.searchedCourses]
 }
 
 
@@ -41,4 +40,15 @@ export function copySearchResult() {
 
 export function applyFilters() {
     filters.forEach(filterFn => filterFn())
+}
+
+
+export function updateJsonWithCourses(loadedCourses) {
+    const wishListCourses = getWishListCourses()
+    const wishListIds = wishListCourses.map(course => course.id)
+
+    return loadedCourses.map(course => {
+        course.isWishListed = wishListIds.includes(course.id)
+        return course
+    })
 }

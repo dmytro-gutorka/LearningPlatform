@@ -18,7 +18,8 @@ function initRouter() {
     if (initModules) initModules.forEach(initFn => initFn())
 }
 
-
 initRouter()
 initGlobalSearch()
+
 initWishList()
+
