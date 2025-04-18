@@ -4,11 +4,11 @@ import * as searchView from './views/searchView.js';
 import * as sortView from './views/sortView.js';
 import * as filtersView from './views/filterView.js';
 import * as paginationController from '../../core/pagination/controller.js'
+import { sortCourses } from '../../core/sotring/sorting.js'
 
 
 //mb init state load all the courses from model.state.courses
 //reset result after page reload
-
 // filter, sort reset ?
 
 
@@ -18,6 +18,9 @@ export async function controlSearchPage() {
     if (!query) return;
 
     model.state.courses = await model.loadCourses();
+
+    // всего скорей нужно тут изменять model.state.courses - добавлять проперти к каждому курсу
+
     model.loadSearchResult(query);
 
     controlPaginatedData(model.state.searchedCourses)
@@ -27,7 +30,7 @@ export async function controlSearchPage() {
 function controlSort(selectedValue) {
     if (!model.state.searchedCourses) return;
 
-    model.sortCourses(model.state.filteredCourses, selectedValue)
+    sortCourses(model.state.filteredCourses, selectedValue)
 
     controlPaginatedData(model.state.filteredCourses)
 }
